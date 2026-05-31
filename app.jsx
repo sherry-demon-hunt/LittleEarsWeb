@@ -17,14 +17,14 @@ const HOSTS = {
     initial: "L",
     image: "images/Lily.png",
     alt: "Lily host portrait",
-    blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer curiositas magna vel risus posuere, sed luctus nibh facilisis."
+    blurb: "Hi, I'm Lily, and I love finding out how the world works, especially when the answer is hiding in a place no one expected! I ask big questions, follow curious clues, and help turn every \"Wait… why?\" into an adventure."
   },
   max: {
     name: "Max",
     initial: "M",
     image: "images/Max.png",
     alt: "Max host portrait",
-    blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer curiositas magna vel risus posuere, sed luctus nibh facilisis."
+    blurb: "Hi, I'm Max, and I have lots of excellent ideas that usually make total sense… at least to me! I ask big questions, test bold theories, and sometimes accidentally discover the real answer along the way."
   }
 };
 
