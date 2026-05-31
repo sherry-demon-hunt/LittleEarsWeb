@@ -14,7 +14,7 @@ Show ID:
 
 ## Goal
 
-Replace the hardcoded `EPISODES` array in `app.jsx` with the five most recent published Spotify episodes.
+Render the five most recent publicly published Spotify episodes.
 
 ## Recommended Approach
 
@@ -25,6 +25,8 @@ Spotify endpoint:
 ```text
 GET https://api.spotify.com/v1/shows/033nX1b2ppBSHqZsId9qQK/episodes?market=AU&limit=5
 ```
+
+The refresh script filters the response before writing `data/episodes.json`. An episode is included only when it has a Spotify URL, is playable for the configured market, and has a release date that is not in the future. This avoids showing queued or scheduled episodes.
 
 The response includes the fields the site needs:
 
@@ -40,7 +42,7 @@ The response includes the fields the site needs:
 
 Spotify's show episodes endpoint requires an OAuth access token. The simplest suitable flow is Client Credentials, but that requires a Spotify client secret. That secret cannot be safely stored in browser JavaScript on GitHub Pages.
 
-The static site should instead fetch a checked-in/generated file such as:
+The static site fetches a checked-in/generated file:
 
 ```text
 data/episodes.json
@@ -65,4 +67,3 @@ That is useful if we only want an embedded Spotify player. It does not provide a
 ## Avoid
 
 Do not scrape the Spotify show page for episode data. The page currently contains enough internal data to infer episodes, but it is encoded in Spotify's app shell and is not a stable public contract.
-
