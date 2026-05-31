@@ -5,10 +5,7 @@ const MARKET = process.env.SPOTIFY_MARKET || "AU";
 const LIMIT = Number(process.env.SPOTIFY_EPISODE_LIMIT || 5);
 const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
 const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET;
-
-if (!CLIENT_ID || !CLIENT_SECRET) {
-  throw new Error("SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET are required.");
-}
+const SHOW_URL = `https://open.spotify.com/show/${SHOW_ID}`;
 
 function releaseDateToComparableDate(value) {
   if (!value) return null;
@@ -17,6 +14,7 @@ function releaseDateToComparableDate(value) {
     const [year, month] = value.split("-").map(Number);
     return new Date(Date.UTC(year, month, 0, 23, 59, 59));
   }
+  if (value.includes("T")) return new Date(value);
   return new Date(`${value}T23:59:59Z`);
 }
 
@@ -28,6 +26,15 @@ function isPublishedPublicly(episode) {
   const unrestricted = !episode.restrictions || Object.keys(episode.restrictions).length === 0;
 
   return Boolean(episode.id && spotifyUrl && released && playable && unrestricted);
+}
+
+function isPublicWebEpisode(episode) {
+  const releaseDate = releaseDateToComparableDate(episode.releaseDate?.isoString);
+  const released = releaseDate && releaseDate.getTime() <= Date.now();
+  const playable = episode.playability?.playable !== false;
+  const publicAccess = episode.restrictions?.paywallContent !== true;
+
+  return Boolean(episode.id && episode.uri && released && playable && publicAccess);
 }
 
 function formatDuration(ms) {
@@ -65,6 +72,60 @@ function normalizeEpisode(episode, index) {
     date: formatDate(episode.release_date),
     art: image,
     url: episode.external_urls.spotify,
+    spotify_uri: episode.uri,
+  };
+}
+
+function decodeHtmlText(value) {
+  return value
+    .replace(/&quot;/g, "\"")
+    .replace(/&amp;/g, "&")
+    .replace(/&#x2F;/g, "/")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">");
+}
+
+function decodeSpotifyState(value) {
+  const decoded = Buffer.from(decodeHtmlText(value), "base64").toString("utf8");
+  return JSON.parse(decoded);
+}
+
+function collectWebEpisodes(value, episodes = [], seen = new Set()) {
+  if (!value || typeof value !== "object") return episodes;
+
+  if (
+    value.__typename === "Episode" &&
+    typeof value.uri === "string" &&
+    value.uri.startsWith("spotify:episode:") &&
+    !seen.has(value.id)
+  ) {
+    seen.add(value.id);
+    episodes.push(value);
+  }
+
+  if (Array.isArray(value)) {
+    value.forEach((item) => collectWebEpisodes(item, episodes, seen));
+  } else {
+    Object.values(value).forEach((item) => collectWebEpisodes(item, episodes, seen));
+  }
+
+  return episodes;
+}
+
+function normalizeWebEpisode(episode, index) {
+  const images = episode.coverArt?.sources || [];
+  const image = images.find((item) => item.width >= 300)?.url || images[0]?.url || null;
+  const spotifyId = episode.uri.split(":").pop();
+
+  return {
+    id: episode.id || spotifyId,
+    n: episodeLabel(episode.name, index),
+    title: episode.name,
+    desc: episode.description || "",
+    len: formatDuration(episode.duration?.totalMilliseconds || 0),
+    date: formatDate(episode.releaseDate?.isoString?.slice(0, 10)),
+    art: image,
+    url: `https://open.spotify.com/episode/${spotifyId}`,
     spotify_uri: episode.uri,
   };
 }
@@ -124,12 +185,49 @@ async function getPublicEpisodes(accessToken) {
   return episodes.slice(0, LIMIT);
 }
 
-const token = await getAccessToken();
-const publicEpisodes = (await getPublicEpisodes(token)).map(normalizeEpisode);
+async function getPublicEpisodesFromApi() {
+  if (!CLIENT_ID || !CLIENT_SECRET) return null;
+
+  const token = await getAccessToken();
+  return (await getPublicEpisodes(token)).map(normalizeEpisode);
+}
+
+async function getPublicEpisodesFromWebPage() {
+  const response = await fetch(SHOW_URL);
+
+  if (!response.ok) {
+    throw new Error(`Spotify show page request failed: ${response.status} ${await response.text()}`);
+  }
+
+  const html = await response.text();
+  const scriptMatches = [...html.matchAll(/<script[^>]*type="text\/plain"[^>]*>([\s\S]*?)<\/script>/gi)];
+  const states = scriptMatches
+    .map((match) => {
+      try {
+        return decodeSpotifyState(match[1].trim());
+      } catch {
+        return null;
+      }
+    })
+    .filter(Boolean);
+
+  const webEpisodes = states.flatMap((state) => collectWebEpisodes(state));
+  return webEpisodes
+    .filter(isPublicWebEpisode)
+    .sort((a, b) => {
+      const aDate = releaseDateToComparableDate(a.releaseDate?.isoString)?.getTime() || 0;
+      const bDate = releaseDateToComparableDate(b.releaseDate?.isoString)?.getTime() || 0;
+      return bDate - aDate;
+    })
+    .slice(0, LIMIT)
+    .map(normalizeWebEpisode);
+}
+
+const publicEpisodes = await getPublicEpisodesFromApi() || await getPublicEpisodesFromWebPage();
 
 const payload = {
   generated_at: new Date().toISOString(),
-  source: `https://open.spotify.com/show/${SHOW_ID}`,
+  source: SHOW_URL,
   market: MARKET,
   public_only: true,
   items: publicEpisodes,

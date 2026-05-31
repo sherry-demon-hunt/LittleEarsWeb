@@ -20,14 +20,14 @@ The checked-in `.nojekyll` file tells GitHub Pages to serve the files as plain s
 
 The latest episode cards are loaded from `data/episodes.json`. A GitHub Actions workflow refreshes that file from Spotify every six hours and can also be run manually from the Actions tab.
 
-Add these repository secrets before running the workflow:
+The refresh script can use Spotify API credentials when these optional repository secrets are available:
 
 ```text
 SPOTIFY_CLIENT_ID
 SPOTIFY_CLIENT_SECRET
 ```
 
-The refresh script writes only public episodes: each item must have a Spotify URL, be playable for the configured market, and have a release date that is not in the future.
+If those secrets are not set, the script falls back to Spotify's public show page and extracts only currently playable, publicly visible episodes. The refresh script writes only public episodes: each item must be playable and have a release date that is not in the future.
 
 ## Local preview
 

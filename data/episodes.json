@@ -1,5 +1,63 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-05-31T07:58:15.449Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
-  "items": []
+  "market": "AU",
+  "public_only": true,
+  "items": [
+    {
+      "id": "22MoX0FIlPmjxRuyWlg305",
+      "n": "Episode 6",
+      "title": "Ep06. What is money",
+      "desc": "In this episode, Lily and Max explore what money really is, why people use it instead of swapping things, and how coins, paper notes, and trust help make buying and selling work.Audio re-uploaded for technical reasons on 31st May 2026.",
+      "len": "6 min",
+      "date": "29 May 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1feb912dc4b8259d5732169942",
+      "url": "https://open.spotify.com/episode/22MoX0FIlPmjxRuyWlg305",
+      "spotify_uri": "spotify:episode:22MoX0FIlPmjxRuyWlg305"
+    },
+    {
+      "id": "36LzcehIIIxph6EbvNRhcs",
+      "n": "Episode 5",
+      "title": "Ep05. Why Can’t We See the Wind",
+      "desc": "In this episode, Lily and Max discover why wind is invisible, how moving air can still push, whoosh, and mess up your hair, and how we can spot the wind by watching what it does.Audio re-uploaded for technical reasons on 31st May 2026.",
+      "len": "9 min",
+      "date": "28 May 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1feb912dc4b8259d5732169942",
+      "url": "https://open.spotify.com/episode/36LzcehIIIxph6EbvNRhcs",
+      "spotify_uri": "spotify:episode:36LzcehIIIxph6EbvNRhcs"
+    },
+    {
+      "id": "1z2DwpsUrA9CQEWPtsalMK",
+      "n": "Episode 4",
+      "title": "Ep04. Why do we have hiccups",
+      "desc": "In this episode, Lily and Max explore why we get hiccups, what happens inside our bodies when they pop out, and why those funny little “hic!” sounds can be so hard to stop.Audio re-uploaded for technical reasons on 31st May 2026.",
+      "len": "6 min",
+      "date": "28 May 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1feb912dc4b8259d5732169942",
+      "url": "https://open.spotify.com/episode/1z2DwpsUrA9CQEWPtsalMK",
+      "spotify_uri": "spotify:episode:1z2DwpsUrA9CQEWPtsalMK"
+    },
+    {
+      "id": "2iE3yiUr6tC0fhuxut6tPq",
+      "n": "Episode 3",
+      "title": "Ep03. Are stars hot or cold?",
+      "desc": "In this episode, Lily and Max find out whether stars are hot or cold, why stars shine, and how their colours can give us clues about their temperature.Audio re-uploaded for technical reasons on 31st May 2026.",
+      "len": "7 min",
+      "date": "28 May 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1feb912dc4b8259d5732169942",
+      "url": "https://open.spotify.com/episode/2iE3yiUr6tC0fhuxut6tPq",
+      "spotify_uri": "spotify:episode:2iE3yiUr6tC0fhuxut6tPq"
+    },
+    {
+      "id": "4KNwVcONny6RWm5HZUxW13",
+      "n": "Episode 2",
+      "title": "Ep02. Why is seawater salty not sweet?",
+      "desc": "In this episode, Lily and Max discover how tiny bits of salt travel from rocks and rivers into the ocean, and why the sea ends up salty instead of sweet.Audio re-uploaded for technical reasons on 31st May 2026.",
+      "len": "6 min",
+      "date": "28 May 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1feb912dc4b8259d5732169942",
+      "url": "https://open.spotify.com/episode/4KNwVcONny6RWm5HZUxW13",
+      "spotify_uri": "spotify:episode:4KNwVcONny6RWm5HZUxW13"
+    }
+  ]
 }
