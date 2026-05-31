@@ -139,7 +139,7 @@ function Episodes() {
       <div className="wrap">
         <div className="sec-head">
           <p className="sec-kicker">Fresh from the lab</p>
-          <h2 className="sec-title">Latest Episodes</h2>
+          <h2 className="sec-title title-outline">Latest Episodes</h2>
         </div>
         {episodes.length === 0 ? (
           <div className="ep-empty">

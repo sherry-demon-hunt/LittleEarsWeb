@@ -216,6 +216,13 @@ body {
   font-family: var(--font-display); font-weight: 800;
   font-size: clamp(30px, 4vw, 46px); color: var(--ink); margin: 6px 0 0;
 }
+.title-outline {
+  -webkit-text-stroke: 0.08em #fff;
+  paint-order: stroke fill;
+  text-shadow:
+    0 0.045em 0 rgba(0,0,0,0.10),
+    0 0.10em 0.14em rgba(74,44,122,0.25);
+}
 
 /* ---------- About ---------- */
 .about-grid { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 44px; align-items: center; }
