@@ -11,17 +11,6 @@ const PLATFORMS = [
 ];
 
 const EPISODE_FEED_URL = "data/episodes.json";
-const FALLBACK_EPISODES = [
-  {
-    n: "Episode 12", feat: true,
-    title: "Why is the ocean salty?",
-    desc: "Lily and Max dive deep to chase one slippery question — where does all that salt come from? Expect crumbling mountains, sneaky rivers, and a very wrinkly thumb experiment you can try in the bath.",
-    len: "18 min", date: "Ages 5-9", art: "images/underwater-scene.jpg",
-  },
-  { n: "Episode 11", title: "How do bubbles know to be round?", desc: "A frothy adventure into surface tension and the laziest shape in the universe.", len: "15 min", date: "Ages 5-9", c1: "var(--sky)", c2: "var(--violet)" },
-  { n: "Episode 10", title: "Where do stars go in the daytime?", desc: "They never leave! We find out why the daytime sky hides its sparkly friends.", len: "16 min", date: "Ages 5-9", c1: "var(--violet)", c2: "var(--magenta)" },
-  { n: "Episode 09", title: "Why do whales sing?", desc: "Booming ocean songs, secret whale gossip, and how sound travels underwater.", len: "17 min", date: "Ages 5-9", c1: "var(--magenta)", c2: "var(--sun)" },
-];
 
 /* ---------- Platform link (renders per layout) ---------- */
 function PlatformLink({ p, layout }) {
@@ -143,7 +132,7 @@ function About() {
 
 /* ---------- Episodes ---------- */
 function useEpisodeFeed() {
-  const [episodes, setEpisodes] = useState(FALLBACK_EPISODES);
+  const [episodes, setEpisodes] = useState([]);
 
   useEffect(() => {
     let alive = true;
@@ -160,7 +149,7 @@ function useEpisodeFeed() {
         }
       })
       .catch(() => {
-        if (alive) setEpisodes(FALLBACK_EPISODES);
+        if (alive) setEpisodes([]);
       });
 
     return () => {
@@ -181,8 +170,14 @@ function Episodes() {
           <p className="sec-kicker">Fresh from the deep</p>
           <h2 className="sec-title">Latest Episodes</h2>
         </div>
-        <div className="ep-grid">
-          {episodes.map((e, i) => {
+        {episodes.length === 0 ? (
+          <div className="ep-empty">
+            <p>Latest Spotify episodes are syncing.</p>
+            <a href={PLATFORMS[0].url} target="_blank" rel="noopener">Open Spotify</a>
+          </div>
+        ) : (
+          <div className="ep-grid">
+            {episodes.map((e, i) => {
             const featured = i === 0;
             const artStyle = e.art
               ? { backgroundImage: `url(${e.art})` }
@@ -202,8 +197,9 @@ function Episodes() {
               </div>
             </article>
             );
-          })}
-        </div>
+            })}
+          </div>
+        )}
       </div>
     </section>
   );
