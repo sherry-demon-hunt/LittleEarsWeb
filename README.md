@@ -1,5 +1,36 @@
 # Little Ears Website
 
+This is a static React site that can be hosted directly from the repository root with GitHub Pages. There is no build step.
+
+## Publish with GitHub Pages
+
+1. Push this repository to GitHub.
+2. In GitHub, open **Settings > Pages**.
+3. Set **Source** to **Deploy from a branch**.
+4. Select the `main` branch and the repository root (`/`) folder.
+5. Save. GitHub will publish the site at:
+
+```text
+https://<github-user-or-org>.github.io/<repository-name>/
+```
+
+The checked-in `.nojekyll` file tells GitHub Pages to serve the files as plain static assets.
+
+## Spotify episode feed
+
+The latest episode cards are loaded from `data/episodes.json`. A GitHub Actions workflow refreshes that file from Spotify every six hours and can also be run manually from the Actions tab.
+
+Add these repository secrets before running the workflow:
+
+```text
+SPOTIFY_CLIENT_ID
+SPOTIFY_CLIENT_SECRET
+```
+
+The refresh script writes only public episodes: each item must have a Spotify URL, be playable for the configured market, and have a release date that is not in the future.
+
+## Local preview
+
 Open the site through a local web server, not by double-clicking `index.html`.
 
 On Windows, double-click:

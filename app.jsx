@@ -4,23 +4,13 @@ const { useState, useEffect, useRef } = React;
 
 /* ---------- Data ---------- */
 const PLATFORMS = [
-  { key: "spotify",    label: "Spotify",         sub: "Listen on Spotify",      url: "https://open.spotify.com/" },
+  { key: "spotify",    label: "Spotify",         sub: "Listen on Spotify",      url: "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK" },
   { key: "apple",      label: "Apple Podcasts",  sub: "Subscribe on Apple",     url: "https://podcasts.apple.com/" },
   { key: "xiaoyuzhou", label: "小宇宙",            sub: "在小宇宙收听",             url: "https://www.xiaoyuzhoufm.com/" },
   { key: "youtube",    label: "YouTube",         sub: "Watch on YouTube",       url: "https://www.youtube.com/" },
 ];
 
-const EPISODES = [
-  {
-    n: "Episode 12", feat: true,
-    title: "Why is the ocean salty?",
-    desc: "Lily and Max dive deep to chase one slippery question — where does all that salt come from? Expect crumbling mountains, sneaky rivers, and a very wrinkly thumb experiment you can try in the bath.",
-    len: "18 min", age: "Ages 5–9", art: "images/underwater-scene.jpg",
-  },
-  { n: "Episode 11", title: "How do bubbles know to be round?", desc: "A frothy adventure into surface tension and the laziest shape in the universe.", len: "15 min", age: "Ages 5–9", c1: "var(--sky)", c2: "var(--violet)" },
-  { n: "Episode 10", title: "Where do stars go in the daytime?", desc: "They never leave! We find out why the daytime sky hides its sparkly friends.", len: "16 min", age: "Ages 5–9", c1: "var(--violet)", c2: "var(--magenta)" },
-  { n: "Episode 09", title: "Why do whales sing?", desc: "Booming ocean songs, secret whale gossip, and how sound travels underwater.", len: "17 min", age: "Ages 5–9", c1: "var(--magenta)", c2: "var(--sun)" },
-];
+const EPISODE_FEED_URL = "data/episodes.json";
 
 /* ---------- Platform link (renders per layout) ---------- */
 function PlatformLink({ p, layout }) {
@@ -141,7 +131,38 @@ function About() {
 }
 
 /* ---------- Episodes ---------- */
+function useEpisodeFeed() {
+  const [episodes, setEpisodes] = useState([]);
+
+  useEffect(() => {
+    let alive = true;
+
+    fetch(EPISODE_FEED_URL, { cache: "no-store" })
+      .then((res) => {
+        if (!res.ok) throw new Error("Episode feed unavailable");
+        return res.json();
+      })
+      .then((data) => {
+        const items = Array.isArray(data) ? data : data.items;
+        if (alive && Array.isArray(items) && items.length > 0) {
+          setEpisodes(items.slice(0, 5));
+        }
+      })
+      .catch(() => {
+        if (alive) setEpisodes([]);
+      });
+
+    return () => {
+      alive = false;
+    };
+  }, []);
+
+  return episodes;
+}
+
 function Episodes() {
+  const episodes = useEpisodeFeed();
+
   return (
     <section className="section" id="episodes" data-screen-label="Episodes">
       <div className="wrap">
@@ -149,22 +170,36 @@ function Episodes() {
           <p className="sec-kicker">Fresh from the deep</p>
           <h2 className="sec-title">Latest Episodes</h2>
         </div>
-        <div className="ep-grid">
-          {EPISODES.map((e, i) => (
-            <article key={i} className={"ep" + (e.feat ? " feat" : "")}>
-              <div className="ep-art" style={ e.art ? { backgroundImage: `url(${e.art})` } : { background: `linear-gradient(135deg, ${e.c1}, ${e.c2})` } }>
-                {e.feat && <span className="feat-tag">★ Latest</span>}
+        {episodes.length === 0 ? (
+          <div className="ep-empty">
+            <p>Latest Spotify episodes are syncing.</p>
+            <a href={PLATFORMS[0].url} target="_blank" rel="noopener">Open Spotify</a>
+          </div>
+        ) : (
+          <div className="ep-grid">
+            {episodes.map((e, i) => {
+            const featured = i === 0;
+            const artStyle = e.art
+              ? { backgroundImage: `url(${e.art})` }
+              : { background: `linear-gradient(135deg, ${e.c1 || "var(--sky)"}, ${e.c2 || "var(--violet)"})` };
+
+            return (
+            <article key={e.id || e.title || i} className={"ep" + (featured ? " feat" : "")}>
+              <div className="ep-art" style={artStyle}>
+                {featured && <span className="feat-tag">Latest</span>}
               </div>
               <div className="ep-top">
                 <span className="ep-num">{e.n}</span>
                 <h3 className="ep-title">{e.title}</h3>
                 <p className="ep-desc">{e.desc}</p>
-                <div className="ep-meta"><span>🎧 {e.len}</span><span>· {e.age}</span></div>
-                <button className="ep-play">▶ Play episode</button>
+                <div className="ep-meta"><span>{e.len}</span><span>{e.date}</span></div>
+                <a className="ep-play" href={e.url || PLATFORMS[0].url} target="_blank" rel="noopener">Play episode</a>
               </div>
             </article>
-          ))}
-        </div>
+            );
+            })}
+          </div>
+        )}
       </div>
     </section>
   );
