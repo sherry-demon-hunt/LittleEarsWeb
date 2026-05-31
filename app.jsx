@@ -5,7 +5,7 @@ const { useState, useEffect } = React;
 /* ---------- Data ---------- */
 const PLATFORMS = [
   { key: "spotify", label: "Spotify", sub: "Listen on Spotify", url: "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK" },
-  { key: "apple", label: "Apple Podcasts", sub: "Subscribe on Apple", url: "https://podcasts.apple.com/" },
+  { key: "apple", label: "Apple Podcasts", sub: "Subscribe on Apple", url: "https://podcasts.apple.com/au/podcast/little-ears-big-ideas/id1896831868" },
   { key: "xiaoyuzhou", label: "Xiaoyuzhou", sub: "Listen on Xiaoyuzhou", url: "https://www.xiaoyuzhoufm.com/" },
   { key: "youtube", label: "YouTube", sub: "Watch on YouTube", url: "https://www.youtube.com/" },
 ];
