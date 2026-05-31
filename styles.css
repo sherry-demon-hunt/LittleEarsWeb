@@ -382,7 +382,7 @@ body {
 }
 
 /* ---------- Episodes ---------- */
-.ep-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 22px; }
+.ep-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
 .ep {
   background: #fff; border-radius: 24px; padding: 0; overflow: hidden;
   box-shadow: 0 18px 38px -18px rgba(74,44,122,0.45);
@@ -391,10 +391,10 @@ body {
 }
 .ep:hover { transform: translateY(-6px); box-shadow: 0 28px 50px -18px rgba(74,44,122,0.5); }
 .ep-top { padding: 20px 22px 16px; position: relative; display: flex; flex-direction: column; flex: 1; }
-.ep.feat { grid-column: span 2; flex-direction: row; }
+.ep.feat { grid-column: 1 / -1; flex-direction: row; }
 .ep-art { background-size: cover; background-position: center; position: relative; }
 .ep:not(.feat) .ep-art { aspect-ratio: 1; }
-.ep.feat .ep-art { width: 44%; aspect-ratio: 1; }
+.ep.feat .ep-art { width: 360px; flex-shrink: 0; aspect-ratio: 1; }
 .ep-num {
   font-family: var(--font-display); font-weight: 800; font-size: 13px;
   color: #fff; background: var(--violet); border-radius: 999px;
@@ -402,7 +402,7 @@ body {
 }
 .ep.feat .ep-num { background: var(--magenta); }
 .ep-title { font-family: var(--font-display); font-weight: 800; color: var(--ink); margin: 0 0 8px; font-size: 21px; line-height: 1.15; }
-.ep.feat .ep-title { font-size: 30px; }
+.ep.feat .ep-title { font-size: 34px; }
 .ep-desc { font-size: 14.5px; font-weight: 600; color: var(--ink-soft); line-height: 1.55; margin: 0; }
 .ep-meta { display: flex; align-items: center; gap: 12px; margin-top: 16px; font-weight: 700; font-size: 13px; color: var(--ink-soft); }
 .ep-play {
@@ -467,8 +467,9 @@ body {
   .links.bubbles { justify-content: center; }
   .about-grid { grid-template-columns: 1fr; }
   .about-card { max-width: 380px; margin: 0 auto; }
-  .ep.feat { grid-column: span 1; flex-direction: column; }
-  .ep.feat .ep-art { width: 100%; aspect-ratio: 1; }
+  .ep-grid { grid-template-columns: repeat(2, 1fr); }
+  .ep.feat { grid-column: 1 / -1; flex-direction: column; }
+  .ep.feat .ep-art { width: 100%; aspect-ratio: 16 / 9; }
   .host-modal { grid-template-columns: 1fr; }
   .host-modal-image-wrap { min-height: 240px; }
   .host-modal-image { min-height: 240px; }
