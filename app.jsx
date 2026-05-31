@@ -171,6 +171,28 @@ function About() {
   );
 }
 
+/* ---------- Cover lightbox ---------- */
+function CoverLightbox({ ep, onClose }) {
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === "Escape") onClose(); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
+  return (
+    <div className="cover-layer" role="presentation" onClick={onClose}>
+      <div className="cover-modal" role="dialog" aria-modal="true" aria-label={`Cover art: ${ep.title}`} onClick={(e) => e.stopPropagation()}>
+        <button className="host-modal-close" type="button" aria-label="Close" onClick={onClose}>x</button>
+        <img className="cover-img" src={ep.art} alt={`Cover art for ${ep.title}`} />
+        <div className="cover-info">
+          {ep.n && <span className="ep-num">{ep.n}</span>}
+          <h3 className="cover-title">{ep.title}</h3>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 /* ---------- Episodes ---------- */
 function useEpisodeFeed() {
   const [episodes, setEpisodes] = useState([]);
@@ -203,6 +225,7 @@ function useEpisodeFeed() {
 
 function Episodes() {
   const episodes = useEpisodeFeed();
+  const [coverEp, setCoverEp] = useState(null);
 
   return (
     <section className="section" id="episodes" data-screen-label="Episodes">
@@ -226,8 +249,26 @@ function Episodes() {
 
               return (
                 <article key={e.id || e.title || i} className={"ep" + (featured ? " feat" : "")}>
-                  <div className="ep-art" style={artStyle}>
+                  <div
+                    className="ep-art"
+                    style={artStyle}
+                    {...(e.art ? {
+                      role: "button",
+                      tabIndex: 0,
+                      "aria-label": `View cover art for ${e.title}`,
+                      onClick: () => setCoverEp(e),
+                      onKeyDown: (ev) => { if (ev.key === "Enter" || ev.key === " ") setCoverEp(e); },
+                    } : {})}
+                  >
                     {featured && <span className="feat-tag">Latest</span>}
+                    {e.art && (
+                      <span className="ep-zoom" aria-hidden="true">
+                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
+                          <circle cx="5" cy="5" r="3.5" stroke="var(--ink)" strokeWidth="1.5"/>
+                          <path d="M8 8l2.5 2.5" stroke="var(--ink)" strokeWidth="1.5" strokeLinecap="round"/>
+                        </svg>
+                      </span>
+                    )}
                   </div>
                   <div className="ep-top">
                     <span className="ep-num">{e.n}</span>
@@ -242,6 +283,7 @@ function Episodes() {
           </div>
         )}
       </div>
+      {coverEp && <CoverLightbox ep={coverEp} onClose={() => setCoverEp(null)} />}
     </section>
   );
 }
