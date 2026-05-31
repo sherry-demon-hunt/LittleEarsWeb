@@ -260,38 +260,90 @@ body {
 .about-body p strong { color: var(--ink); }
 .hosts { display: flex; gap: 14px; margin-top: 22px; flex-wrap: wrap; }
 .host-chip {
-  position: relative;
   display: flex; align-items: center; gap: 10px;
-  min-height: 58px;
-  background: #fff; border-radius: 999px; padding: 10px 22px 10px 68px;
+  background: #fff; border-radius: 999px; padding: 8px 18px 8px 10px;
   font-family: var(--font-display); font-weight: 700; color: var(--ink);
   box-shadow: 0 10px 22px -10px rgba(74,44,122,0.45);
-  border: 2px solid rgba(255,255,255,0.9);
-  isolation: isolate;
+  border: 2px solid rgba(255,255,255,0.9); cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.host-popout {
+.host-chip:hover,
+.host-chip:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 28px -12px rgba(74,44,122,0.5);
+}
+.host-chip[aria-expanded="true"] { background: #FFF7C7; }
+.host-dot {
+  width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center;
+  color: #fff; font-weight: 800;
+}
+.host-chip:nth-child(1) .host-dot { background: linear-gradient(135deg,#8B5CF6,#EC4899); }
+.host-chip:nth-child(2) .host-dot { background: linear-gradient(135deg,#38BDF8,#4F8DF5); }
+.host-window {
+  position: relative;
+  display: grid;
+  grid-template-columns: 112px 1fr;
+  gap: 18px;
+  align-items: center;
+  max-width: 520px;
+  margin-top: 18px;
+  padding: 18px 46px 18px 18px;
+  background: rgba(255,255,255,0.96);
+  border: 2px solid rgba(255,255,255,0.95);
+  border-radius: 24px;
+  box-shadow: 0 24px 48px -22px rgba(74,44,122,0.5);
+}
+.host-window::before {
+  content: "";
   position: absolute;
-  left: -4px;
-  bottom: -4px;
-  width: 68px;
-  height: 78px;
-  border-radius: 999px 999px 22px 22px;
-  overflow: hidden;
-  background: linear-gradient(135deg, rgba(255,255,255,0.96), rgba(255,255,255,0.72));
-  box-shadow: 0 14px 26px -14px rgba(74,44,122,0.55);
-  border: 3px solid #fff;
-  transform: translateY(-8px);
+  top: -9px;
+  left: 44px;
+  width: 18px;
+  height: 18px;
+  background: rgba(255,255,255,0.96);
+  border-left: 2px solid rgba(255,255,255,0.95);
+  border-top: 2px solid rgba(255,255,255,0.95);
+  transform: rotate(45deg);
 }
-.host-popout img {
+.host-window-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(139,92,246,0.12);
+  color: var(--ink);
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1;
+}
+.host-window-image {
   display: block;
   width: 100%;
-  height: 100%;
+  aspect-ratio: 1;
   object-fit: cover;
-  object-position: 50% 18%;
-  transform: scale(1.36);
+  object-position: 50% 16%;
+  border-radius: 20px;
+  border: 4px solid #fff;
+  box-shadow: 0 14px 24px -14px rgba(74,44,122,0.48);
 }
-.host-chip-lily .host-popout img { object-position: 48% 16%; }
-.host-chip-max .host-popout img { object-position: 52% 14%; }
+.host-window-copy h3 {
+  margin: 0 0 6px;
+  font-family: var(--font-display);
+  font-size: 26px;
+  line-height: 1;
+  color: var(--ink);
+}
+.host-window-copy p {
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
 
 /* ---------- Episodes ---------- */
 .ep-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 22px; }

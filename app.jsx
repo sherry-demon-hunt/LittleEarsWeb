@@ -11,6 +11,22 @@ const PLATFORMS = [
 ];
 
 const EPISODE_FEED_URL = "data/episodes.json";
+const HOSTS = {
+  lily: {
+    name: "Lily",
+    initial: "L",
+    image: "images/Lily.png",
+    alt: "Lily host portrait",
+    blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer curiositas magna vel risus posuere, sed luctus nibh facilisis."
+  },
+  max: {
+    name: "Max",
+    initial: "M",
+    image: "images/Max.png",
+    alt: "Max host portrait",
+    blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer curiositas magna vel risus posuere, sed luctus nibh facilisis."
+  }
+};
 
 /* ---------- Platform link ---------- */
 function PlatformLink({ p, layout }) {
@@ -78,6 +94,9 @@ function Hero({ layout }) {
 
 /* ---------- About ---------- */
 function About() {
+  const [activeHostKey, setActiveHostKey] = useState(null);
+  const activeHost = activeHostKey ? HOSTS[activeHostKey] : null;
+
   return (
     <section className="section tint" id="about" data-screen-label="About">
       <div className="wrap about-grid">
@@ -92,15 +111,30 @@ function About() {
           <p><strong>Little Ears, Big Ideas</strong> turns the questions kids actually ask, like why the sky is blue or how money works, into short, joyful adventures. Each episode is built for little attention spans and big imaginations, so screen-free car rides and bedtimes become mini science expeditions.</p>
           <p>Hosted by <strong>Lily</strong> the question-chaser and <strong>Max</strong> the big-idea builder, each conversation keeps science playful, clear, and easy for curious kids to follow.</p>
           <div className="hosts">
-            <span className="host-chip host-chip-lily">
-              <span className="host-popout"><img src="images/Lily.png" alt="" /></span>
-              <span>Lily</span>
-            </span>
-            <span className="host-chip host-chip-max">
-              <span className="host-popout"><img src="images/Max.png" alt="" /></span>
-              <span>Max</span>
-            </span>
+            {Object.entries(HOSTS).map(([key, host]) => (
+              <button
+                key={key}
+                type="button"
+                className="host-chip"
+                aria-expanded={activeHostKey === key}
+                aria-controls="host-popover"
+                onClick={() => setActiveHostKey(activeHostKey === key ? null : key)}
+              >
+                <span className="host-dot" aria-hidden="true">{host.initial}</span>
+                <span>{host.name}</span>
+              </button>
+            ))}
           </div>
+          {activeHost && (
+            <div className="host-window" id="host-popover" role="dialog" aria-label={`${activeHost.name} host details`}>
+              <button className="host-window-close" type="button" aria-label="Close host details" onClick={() => setActiveHostKey(null)}>x</button>
+              <img className="host-window-image" src={activeHost.image} alt={activeHost.alt} />
+              <div className="host-window-copy">
+                <h3>{activeHost.name}</h3>
+                <p>{activeHost.blurb}</p>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </section>
