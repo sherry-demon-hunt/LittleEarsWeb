@@ -97,6 +97,17 @@ function About() {
   const [activeHostKey, setActiveHostKey] = useState(null);
   const activeHost = activeHostKey ? HOSTS[activeHostKey] : null;
 
+  useEffect(() => {
+    if (!activeHost) return;
+
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") setActiveHostKey(null);
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [activeHost]);
+
   return (
     <section className="section tint" id="about" data-screen-label="About">
       <div className="wrap about-grid">
@@ -125,18 +136,37 @@ function About() {
               </button>
             ))}
           </div>
-          {activeHost && (
-            <div className="host-window" id="host-popover" role="dialog" aria-label={`${activeHost.name} host details`}>
-              <button className="host-window-close" type="button" aria-label="Close host details" onClick={() => setActiveHostKey(null)}>x</button>
-              <img className="host-window-image" src={activeHost.image} alt={activeHost.alt} />
-              <div className="host-window-copy">
-                <h3>{activeHost.name}</h3>
-                <p>{activeHost.blurb}</p>
-              </div>
-            </div>
-          )}
         </div>
       </div>
+      {activeHost && (
+        <div className="host-modal-layer" id="host-popover" role="presentation" onClick={() => setActiveHostKey(null)}>
+          <div className="host-modal" role="dialog" aria-modal="true" aria-label={`${activeHost.name} host details`} onClick={(event) => event.stopPropagation()}>
+            <button className="host-modal-close" type="button" aria-label="Close host details" onClick={() => setActiveHostKey(null)}>x</button>
+            <div className="host-modal-image-wrap">
+              <img className="host-modal-image" src={activeHost.image} alt={activeHost.alt} />
+            </div>
+            <div className="host-modal-copy">
+              <p className="sec-kicker">Meet {activeHost.name}</p>
+              <h3>{activeHost.name}</h3>
+              <p>{activeHost.blurb}</p>
+              <div className="host-modal-tabs" aria-label="Switch hosts">
+                {Object.entries(HOSTS).map(([key, host]) => (
+                  <button
+                    key={key}
+                    type="button"
+                    className="host-modal-tab"
+                    aria-pressed={activeHostKey === key}
+                    onClick={() => setActiveHostKey(key)}
+                  >
+                    <span className="host-dot" aria-hidden="true">{host.initial}</span>
+                    <span>{host.name}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
