@@ -62,7 +62,7 @@ function Hero({ layout }) {
             <span className="row"><span className="word w-little">Little</span> <span className="word w-ears">Ears,</span></span>
             <span className="row row-2"><span className="word w-big">Big</span> <span className="word w-ideas">Ideas</span></span>
           </h1>
-          <p className="lede">Big questions from tiny scientists, answered with wonder, giggles, and everyday experiments.</p>
+          <p className="lede">Big questions from tiny scientists, answered with wonder, giggles, and everyday discoveries.</p>
 
           <div className="listen">
             <p className="listen-eyebrow"><Sparkle size={16} color="var(--sun)" /> Listen wherever you play podcasts</p>
@@ -90,10 +90,16 @@ function About() {
           <p className="sec-kicker">Meet your hosts</p>
           <h2 className="sec-title" style={{ textAlign: "left", marginBottom: 18 }}>Curiosity, served bite-sized.</h2>
           <p><strong>Little Ears, Big Ideas</strong> turns the questions kids actually ask, like why the sky is blue or how money works, into short, joyful adventures. Each episode is built for little attention spans and big imaginations, so screen-free car rides and bedtimes become mini science expeditions.</p>
-          <p>Hosted by <strong>Lily</strong> the question-chaser and <strong>Max</strong> the experiment-maker, every show ends with a simple thing you can try together at home.</p>
+          <p>Hosted by <strong>Lily</strong> the question-chaser and <strong>Max</strong> the big-idea builder, each conversation keeps science playful, clear, and easy for curious kids to follow.</p>
           <div className="hosts">
-            <span className="host-chip"><span className="host-dot" style={{ background: "linear-gradient(135deg,#8B5CF6,#EC4899)" }}>L</span> Lily</span>
-            <span className="host-chip"><span className="host-dot" style={{ background: "linear-gradient(135deg,#38BDF8,#4F8DF5)" }}>M</span> Max</span>
+            <span className="host-chip host-chip-lily">
+              <span className="host-popout"><img src="images/Lily.png" alt="" /></span>
+              <span>Lily</span>
+            </span>
+            <span className="host-chip host-chip-max">
+              <span className="host-popout"><img src="images/Max.png" alt="" /></span>
+              <span>Max</span>
+            </span>
           </div>
         </div>
       </div>
