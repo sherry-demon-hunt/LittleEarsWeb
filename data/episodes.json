@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-06-01T18:18:22.433Z",
+  "generated_at": "2026-06-02T05:02:12.933Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "4Vmd18KHRWo5FQ7wr5nHIy",
+      "n": "Episode 7",
+      "title": "Ep07. Why Are There So Many Sea Creatures - and Why Do Some Sting?",
+      "desc": "In this episode, Lily and Max dive into why the sea is full of creatures, and why some of them sting, in a fun underwater adventure about habitats, jellyfish, and respecting ocean animals.",
+      "len": "12 min",
+      "date": "2 June 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f306e30f77171bb5ca84fb0af",
+      "url": "https://open.spotify.com/episode/4Vmd18KHRWo5FQ7wr5nHIy",
+      "spotify_uri": "spotify:episode:4Vmd18KHRWo5FQ7wr5nHIy"
+    },
     {
       "id": "22MoX0FIlPmjxRuyWlg305",
       "n": "Episode 6",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fde4de9a1218703f767c7827e",
       "url": "https://open.spotify.com/episode/2iE3yiUr6tC0fhuxut6tPq",
       "spotify_uri": "spotify:episode:2iE3yiUr6tC0fhuxut6tPq"
-    },
-    {
-      "id": "4KNwVcONny6RWm5HZUxW13",
-      "n": "Episode 2",
-      "title": "Ep02. Why is seawater salty not sweet?",
-      "desc": "In this episode, Lily and Max discover how tiny bits of salt travel from rocks and rivers into the ocean, and why the sea ends up salty instead of sweet.Audio re-uploaded for technical reasons on 31st May 2026.",
-      "len": "6 min",
-      "date": "28 May 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1fdd36432ea62a80af52c6a263",
-      "url": "https://open.spotify.com/episode/4KNwVcONny6RWm5HZUxW13",
-      "spotify_uri": "spotify:episode:4KNwVcONny6RWm5HZUxW13"
     }
   ]
 }
