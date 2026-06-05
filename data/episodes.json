@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-06-04T20:26:38.229Z",
+  "generated_at": "2026-06-05T04:49:37.949Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "5RCsYXM45DRc4qlxK4vPDm",
+      "n": "Episode 8",
+      "title": "Ep08. Why does the moon change shape?",
+      "desc": "In this episode, Lily and Max find out why the Moon looks like it changes shape, and discover it’s always round, just showing us different sunny parts.",
+      "len": "10 min",
+      "date": "5 June 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1fd09f8045b50f3ee192441567",
+      "url": "https://open.spotify.com/episode/5RCsYXM45DRc4qlxK4vPDm",
+      "spotify_uri": "spotify:episode:5RCsYXM45DRc4qlxK4vPDm"
+    },
     {
       "id": "4Vmd18KHRWo5FQ7wr5nHIy",
       "n": "Episode 7",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f980fe34ac764443146cb3dd3",
       "url": "https://open.spotify.com/episode/1z2DwpsUrA9CQEWPtsalMK",
       "spotify_uri": "spotify:episode:1z2DwpsUrA9CQEWPtsalMK"
-    },
-    {
-      "id": "2iE3yiUr6tC0fhuxut6tPq",
-      "n": "Episode 3",
-      "title": "Ep03. Are stars hot or cold?",
-      "desc": "In this episode, Lily and Max find out whether stars are hot or cold, why stars shine, and how their colours can give us clues about their temperature.Audio re-uploaded for technical reasons on 31st May 2026.",
-      "len": "7 min",
-      "date": "28 May 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1fde4de9a1218703f767c7827e",
-      "url": "https://open.spotify.com/episode/2iE3yiUr6tC0fhuxut6tPq",
-      "spotify_uri": "spotify:episode:2iE3yiUr6tC0fhuxut6tPq"
     }
   ]
 }
