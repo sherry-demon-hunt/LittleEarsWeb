@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-06-08T20:36:16.507Z",
+  "generated_at": "2026-06-09T04:38:30.829Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "7KkjjHaC356PHChwJRZuHN",
+      "n": "Episode 9",
+      "title": "Ep09. How Do Electronic Toys Move?",
+      "desc": "In this episode, Lily and Max investigate how electronic toys move, beep, flash, and zoom! From batteries and circuits to motors, gears, speakers, and lights, they discover that a walking robot or roaring dinosaur is not magic, it’s science in a toy costume.",
+      "len": "10 min",
+      "date": "9 June 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f4b7403243d1d47cba7fdd69b",
+      "url": "https://open.spotify.com/episode/7KkjjHaC356PHChwJRZuHN",
+      "spotify_uri": "spotify:episode:7KkjjHaC356PHChwJRZuHN"
+    },
     {
       "id": "5RCsYXM45DRc4qlxK4vPDm",
       "n": "Episode 8",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f589f2aaf5ac98b879a993f3a",
       "url": "https://open.spotify.com/episode/36LzcehIIIxph6EbvNRhcs",
       "spotify_uri": "spotify:episode:36LzcehIIIxph6EbvNRhcs"
-    },
-    {
-      "id": "1z2DwpsUrA9CQEWPtsalMK",
-      "n": "Episode 4",
-      "title": "Ep04. Why do we have hiccups?",
-      "desc": "In this episode, Lily and Max explore why we get hiccups, what happens inside our bodies when they pop out, and why those funny little “hic!” sounds can be so hard to stop.Audio re-uploaded for technical reasons on 31st May 2026.",
-      "len": "6 min",
-      "date": "28 May 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f980fe34ac764443146cb3dd3",
-      "url": "https://open.spotify.com/episode/1z2DwpsUrA9CQEWPtsalMK",
-      "spotify_uri": "spotify:episode:1z2DwpsUrA9CQEWPtsalMK"
     }
   ]
 }
