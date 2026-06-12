@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-06-11T20:38:31.340Z",
+  "generated_at": "2026-06-12T05:08:30.245Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "7brPryqiCpuy8CnrgcbGyv",
+      "n": "Episode 10",
+      "title": "Ep10. What Is snot made of?",
+      "desc": "In this episode, Lily and Max explore Arthur’s wonderfully slimy question: what is snot made of? From water and sticky mucins to dust, pollen, and tiny germ-fighting helpers, they discover why our noses make mucus, how it protects our bodies, and why snot sometimes gets runny or changes colour when we’re sick. A funny, slightly gross, and very curious science adventure for little listeners!",
+      "len": "8 min",
+      "date": "12 June 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f35fa48020c39a5691f877d37",
+      "url": "https://open.spotify.com/episode/7brPryqiCpuy8CnrgcbGyv",
+      "spotify_uri": "spotify:episode:7brPryqiCpuy8CnrgcbGyv"
+    },
     {
       "id": "7KkjjHaC356PHChwJRZuHN",
       "n": "Episode 9",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f05316891da7f79219c973ef7",
       "url": "https://open.spotify.com/episode/22MoX0FIlPmjxRuyWlg305",
       "spotify_uri": "spotify:episode:22MoX0FIlPmjxRuyWlg305"
-    },
-    {
-      "id": "36LzcehIIIxph6EbvNRhcs",
-      "n": "Episode 5",
-      "title": "Ep05. Why Can’t We See the Wind?",
-      "desc": "In this episode, Lily and Max discover why wind is invisible, how moving air can still push, whoosh, and mess up your hair, and how we can spot the wind by watching what it does.Audio re-uploaded for technical reasons on 31st May 2026.",
-      "len": "9 min",
-      "date": "28 May 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f589f2aaf5ac98b879a993f3a",
-      "url": "https://open.spotify.com/episode/36LzcehIIIxph6EbvNRhcs",
-      "spotify_uri": "spotify:episode:36LzcehIIIxph6EbvNRhcs"
     }
   ]
 }
