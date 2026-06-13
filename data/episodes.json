@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-06-12T20:28:56.060Z",
+  "generated_at": "2026-06-13T04:54:37.145Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "1EXcWxAJBoBDM8s0OGeXUB",
+      "n": "Episode 1",
+      "title": "Special Episode. World Cup 2026",
+      "desc": "In this special episode, Lily and Max explore why the World Cup makes the whole world cheer! Get ready for football, facts, feelings, and a celebration of how one game can bring people together around the world.",
+      "len": "11 min",
+      "date": "14 June 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f5cbfae4fb2c48c9a9697a60a",
+      "url": "https://open.spotify.com/episode/1EXcWxAJBoBDM8s0OGeXUB",
+      "spotify_uri": "spotify:episode:1EXcWxAJBoBDM8s0OGeXUB"
+    },
     {
       "id": "7brPryqiCpuy8CnrgcbGyv",
       "n": "Episode 10",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f306e30f77171bb5ca84fb0af",
       "url": "https://open.spotify.com/episode/4Vmd18KHRWo5FQ7wr5nHIy",
       "spotify_uri": "spotify:episode:4Vmd18KHRWo5FQ7wr5nHIy"
-    },
-    {
-      "id": "22MoX0FIlPmjxRuyWlg305",
-      "n": "Episode 6",
-      "title": "Ep06. What is money?",
-      "desc": "In this episode, Lily and Max explore what money really is, why people use it instead of swapping things, and how coins, paper notes, and trust help make buying and selling work.Audio re-uploaded for technical reasons on 31st May 2026. ",
-      "len": "6 min",
-      "date": "29 May 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f05316891da7f79219c973ef7",
-      "url": "https://open.spotify.com/episode/22MoX0FIlPmjxRuyWlg305",
-      "spotify_uri": "spotify:episode:22MoX0FIlPmjxRuyWlg305"
     }
   ]
 }
