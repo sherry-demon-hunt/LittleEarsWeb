@@ -1,12 +1,23 @@
 {
-  "generated_at": "2026-06-18T20:40:19.557Z",
+  "generated_at": "2026-06-19T05:28:12.455Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
     {
+      "id": "6K7en2wEI36ttDSNc7fo1L",
+      "n": "Episode 12",
+      "title": "Ep12. Why do we need to sleep?",
+      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max explore big question: why do we need to sleep? From brain tidying and memory saving to growing, repairing, dreaming, and avoiding full grumble-monster mode, this cozy bedtime-science episode helps kids understand that sleep is not doing nothing.",
+      "len": "10 min",
+      "date": "19 June 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f67452c7e60beea625ce3154f",
+      "url": "https://open.spotify.com/episode/6K7en2wEI36ttDSNc7fo1L",
+      "spotify_uri": "spotify:episode:6K7en2wEI36ttDSNc7fo1L"
+    },
+    {
       "id": "4eSSe3SYGz23CXXs9uCH7V",
-      "n": "Episode 1",
+      "n": "Episode 2",
       "title": "World Cup follow up: What does offside mean?",
       "desc": "In this World Cup follow-up episode, Lily and Max tackle one of football’s most confusing rules: offside. With a playful referee whistle, a simple pitch example, and plenty of Max-style football drama, they explain why a goal can be cancelled, what the second-last defender means, and why timing matters so much. ",
       "len": "9 min",
@@ -28,7 +39,7 @@
     },
     {
       "id": "1EXcWxAJBoBDM8s0OGeXUB",
-      "n": "Episode 3",
+      "n": "Episode 4",
       "title": "Special Episode. World Cup 2026",
       "desc": "In this special episode, Lily and Max explore why the World Cup makes the whole world cheer! Get ready for football, facts, feelings, and a celebration of how one game can bring people together around the world.",
       "len": "11 min",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f35fa48020c39a5691f877d37",
       "url": "https://open.spotify.com/episode/7brPryqiCpuy8CnrgcbGyv",
       "spotify_uri": "spotify:episode:7brPryqiCpuy8CnrgcbGyv"
-    },
-    {
-      "id": "7KkjjHaC356PHChwJRZuHN",
-      "n": "Episode 9",
-      "title": "Ep09. How Do Electronic Toys Move?",
-      "desc": "In this episode, Lily and Max investigate how electronic toys move, beep, flash, and zoom! From batteries and circuits to motors, gears, speakers, and lights, they discover that a walking robot or roaring dinosaur is not magic, it’s science in a toy costume.",
-      "len": "10 min",
-      "date": "9 June 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f4b7403243d1d47cba7fdd69b",
-      "url": "https://open.spotify.com/episode/7KkjjHaC356PHChwJRZuHN",
-      "spotify_uri": "spotify:episode:7KkjjHaC356PHChwJRZuHN"
     }
   ]
 }
