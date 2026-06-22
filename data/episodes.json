@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-06-22T12:27:50.277Z",
+  "generated_at": "2026-06-22T21:15:36.821Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "22YsV92NWBH8Iyiul6TZKj",
+      "n": "Episode 13",
+      "title": "Ep13. Why do spiders make webs?",
+      "desc": "In this episode, Lily and Max explore why spiders make webs . They discover that spider webs are not just spooky decorations. They are clever tools for catching food, building shelters, protecting eggs, and even making safety lines. This episode turns spider science into a fun, friendly adventure for curious kids.",
+      "len": "9 min",
+      "date": "23 June 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f61c2f89e53ce2a5945c1e665",
+      "url": "https://open.spotify.com/episode/22YsV92NWBH8Iyiul6TZKj",
+      "spotify_uri": "spotify:episode:22YsV92NWBH8Iyiul6TZKj"
+    },
     {
       "id": "6K7en2wEI36ttDSNc7fo1L",
       "n": "Episode 12",
@@ -17,7 +28,7 @@
     },
     {
       "id": "4eSSe3SYGz23CXXs9uCH7V",
-      "n": "Episode 2",
+      "n": "Episode 3",
       "title": "World Cup follow up: What does offside mean?",
       "desc": "In this World Cup follow-up episode, Lily and Max tackle one of football’s most confusing rules: offside. With a playful referee whistle, a simple pitch example, and plenty of Max-style football drama, they explain why a goal can be cancelled, what the second-last defender means, and why timing matters so much. ",
       "len": "9 min",
@@ -39,7 +50,7 @@
     },
     {
       "id": "1EXcWxAJBoBDM8s0OGeXUB",
-      "n": "Episode 4",
+      "n": "Episode 5",
       "title": "Special Episode. World Cup 2026",
       "desc": "In this special episode, Lily and Max explore why the World Cup makes the whole world cheer! Get ready for football, facts, feelings, and a celebration of how one game can bring people together around the world.",
       "len": "11 min",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f5cbfae4fb2c48c9a9697a60a",
       "url": "https://open.spotify.com/episode/1EXcWxAJBoBDM8s0OGeXUB",
       "spotify_uri": "spotify:episode:1EXcWxAJBoBDM8s0OGeXUB"
-    },
-    {
-      "id": "7brPryqiCpuy8CnrgcbGyv",
-      "n": "Episode 10",
-      "title": "Ep10. What Is snot made of?",
-      "desc": "In this episode, Lily and Max explore Arthur’s wonderfully slimy question: what is snot made of? From water and sticky mucins to dust, pollen, and tiny germ-fighting helpers, they discover why our noses make mucus, how it protects our bodies, and why snot sometimes gets runny or changes colour when we’re sick. A funny, slightly gross, and very curious science adventure for little listeners!",
-      "len": "8 min",
-      "date": "12 June 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f35fa48020c39a5691f877d37",
-      "url": "https://open.spotify.com/episode/7brPryqiCpuy8CnrgcbGyv",
-      "spotify_uri": "spotify:episode:7brPryqiCpuy8CnrgcbGyv"
     }
   ]
 }
