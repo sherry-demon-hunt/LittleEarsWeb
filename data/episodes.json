@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-06-25T20:23:38.334Z",
+  "generated_at": "2026-06-26T04:42:37.702Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "28ViUfVwmbymZaDNB4Ipse",
+      "n": "Episode 14",
+      "title": "Ep14. Why do kids’ teeth fall out?",
+      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max investigate the wobbly mystery of baby teeth! Why do teeth fall out, what is hiding underneath, and why do grown-up teeth take their place? With silly tooth jokes, gentle science, and a very proud gap smile, this episode helps kids understand one of the biggest little milestones of growing up.",
+      "len": "11 min",
+      "date": "26 June 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f46f7f2a6f40757445220a9b3",
+      "url": "https://open.spotify.com/episode/28ViUfVwmbymZaDNB4Ipse",
+      "spotify_uri": "spotify:episode:28ViUfVwmbymZaDNB4Ipse"
+    },
     {
       "id": "22YsV92NWBH8Iyiul6TZKj",
       "n": "Episode 13",
@@ -28,7 +39,7 @@
     },
     {
       "id": "4eSSe3SYGz23CXXs9uCH7V",
-      "n": "Episode 3",
+      "n": "Episode 4",
       "title": "World Cup follow up: What does offside mean?",
       "desc": "In this World Cup follow-up episode, Lily and Max tackle one of football’s most confusing rules: offside. With a playful referee whistle, a simple pitch example, and plenty of Max-style football drama, they explain why a goal can be cancelled, what the second-last defender means, and why timing matters so much. ",
       "len": "9 min",
@@ -39,7 +50,7 @@
     },
     {
       "id": "71f7kisruKekbKLslik8hC",
-      "n": "Episode 4",
+      "n": "Episode 5",
       "title": "Little Ears Big Ideas Trailer",
       "desc": "Little Ears, Big Ideas is a short, fun sciencepodcast for curious kids aged 5–9 and the grown-ups who love listening withthem.Each bite-sized episode explores one big question about theworld.With playful conversations and simple explanations, LittleEars, Big Ideas helps children discover science in a friendly, imaginative,and easy-to-understand way.Perfect for car rides, after-school listening, bedtimecuriosity, or any moment when a child asks, “But why?”New episodes weekly.",
       "len": "1 min",
