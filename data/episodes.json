@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-06-29T20:17:10.923Z",
+  "generated_at": "2026-06-30T04:36:18.733Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "4j3D1wJP0VoD1ugCc8vj17",
+      "n": "Episode 15",
+      "title": "Ep15. Why some people have straight hair and others have curly hair?",
+      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max explore why some people have straight hair while others have curls, waves, or coils. With help from Alex’s question, they discover tiny hair follicles, genes, keratin, frizz, and why every hair type is wonderfully different.",
+      "len": "8 min",
+      "date": "30 June 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1faad0f71d8cff1246af0adafa",
+      "url": "https://open.spotify.com/episode/4j3D1wJP0VoD1ugCc8vj17",
+      "spotify_uri": "spotify:episode:4j3D1wJP0VoD1ugCc8vj17"
+    },
     {
       "id": "28ViUfVwmbymZaDNB4Ipse",
       "n": "Episode 14",
@@ -39,7 +50,7 @@
     },
     {
       "id": "4eSSe3SYGz23CXXs9uCH7V",
-      "n": "Episode 4",
+      "n": "Episode 5",
       "title": "World Cup follow up: What does offside mean?",
       "desc": "In this World Cup follow-up episode, Lily and Max tackle one of football’s most confusing rules: offside. With a playful referee whistle, a simple pitch example, and plenty of Max-style football drama, they explain why a goal can be cancelled, what the second-last defender means, and why timing matters so much. ",
       "len": "9 min",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fda018b134c9eb457c54ed5b9",
       "url": "https://open.spotify.com/episode/4eSSe3SYGz23CXXs9uCH7V",
       "spotify_uri": "spotify:episode:4eSSe3SYGz23CXXs9uCH7V"
-    },
-    {
-      "id": "71f7kisruKekbKLslik8hC",
-      "n": "Episode 5",
-      "title": "Little Ears Big Ideas Trailer",
-      "desc": "Little Ears, Big Ideas is a short, fun sciencepodcast for curious kids aged 5–9 and the grown-ups who love listening withthem.Each bite-sized episode explores one big question about theworld.With playful conversations and simple explanations, LittleEars, Big Ideas helps children discover science in a friendly, imaginative,and easy-to-understand way.Perfect for car rides, after-school listening, bedtimecuriosity, or any moment when a child asks, “But why?”New episodes weekly.",
-      "len": "1 min",
-      "date": "28 May 2026",
-      "art": "https://i.scdn.co/image/ab6765630000ba8aeb912dc4b8259d5732169942",
-      "url": "https://open.spotify.com/episode/71f7kisruKekbKLslik8hC",
-      "spotify_uri": "spotify:episode:71f7kisruKekbKLslik8hC"
     }
   ]
 }
