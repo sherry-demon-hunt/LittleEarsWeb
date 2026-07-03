@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-07-02T19:55:04.270Z",
+  "generated_at": "2026-07-03T04:11:56.733Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "4rgxvQsikFjdH9UJ93fcXH",
+      "n": "Episode 16",
+      "title": "Ep16. Why can't we have rainbow skin?",
+      "desc": "In this colourful episode, Lily and Max explore Zelda’s brilliant question: why can’t we have rainbow skin? They discover what gives human skin its colour, how rainbows are made from light, and the surprising hidden patterns called Blaschko’s lines that most people can’t see.",
+      "len": "8 min",
+      "date": "3 July 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f646ceb57a0999649107d7ece",
+      "url": "https://open.spotify.com/episode/4rgxvQsikFjdH9UJ93fcXH",
+      "spotify_uri": "spotify:episode:4rgxvQsikFjdH9UJ93fcXH"
+    },
     {
       "id": "4j3D1wJP0VoD1ugCc8vj17",
       "n": "Episode 15",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f67452c7e60beea625ce3154f",
       "url": "https://open.spotify.com/episode/6K7en2wEI36ttDSNc7fo1L",
       "spotify_uri": "spotify:episode:6K7en2wEI36ttDSNc7fo1L"
-    },
-    {
-      "id": "4eSSe3SYGz23CXXs9uCH7V",
-      "n": "Episode 5",
-      "title": "World Cup follow up: What does offside mean?",
-      "desc": "In this World Cup follow-up episode, Lily and Max tackle one of football’s most confusing rules: offside. With a playful referee whistle, a simple pitch example, and plenty of Max-style football drama, they explain why a goal can be cancelled, what the second-last defender means, and why timing matters so much. ",
-      "len": "9 min",
-      "date": "18 June 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1fda018b134c9eb457c54ed5b9",
-      "url": "https://open.spotify.com/episode/4eSSe3SYGz23CXXs9uCH7V",
-      "spotify_uri": "spotify:episode:4eSSe3SYGz23CXXs9uCH7V"
     }
   ]
 }
