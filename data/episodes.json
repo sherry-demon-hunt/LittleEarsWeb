@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-07-06T20:15:59.538Z",
+  "generated_at": "2026-07-07T04:18:29.293Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "2VtGI8vxLhr6SVjEDH3xOs",
+      "n": "Episode 17",
+      "title": "Ep17. Why do different countries speak different languages?",
+      "desc": "In this episode, Arthur asks why people in different countries speak different languages. Lily and Max take a fun world tour through mountains, accents, writing systems, travelling words, baby language detectives, and why words can carry family, culture, history and home. Along the way, they discover that languages are not just different sounds, they are also people’s stories.",
+      "len": "11 min",
+      "date": "7 July 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f70535d4a387e279d7d29fcd0",
+      "url": "https://open.spotify.com/episode/2VtGI8vxLhr6SVjEDH3xOs",
+      "spotify_uri": "spotify:episode:2VtGI8vxLhr6SVjEDH3xOs"
+    },
     {
       "id": "4rgxvQsikFjdH9UJ93fcXH",
       "n": "Episode 16",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f61c2f89e53ce2a5945c1e665",
       "url": "https://open.spotify.com/episode/22YsV92NWBH8Iyiul6TZKj",
       "spotify_uri": "spotify:episode:22YsV92NWBH8Iyiul6TZKj"
-    },
-    {
-      "id": "6K7en2wEI36ttDSNc7fo1L",
-      "n": "Episode 12",
-      "title": "Ep12. Why do we need to sleep?",
-      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max explore big question: why do we need to sleep? From brain tidying and memory saving to growing, repairing, dreaming, and avoiding full grumble-monster mode, this cozy bedtime-science episode helps kids understand that sleep is not doing nothing.",
-      "len": "10 min",
-      "date": "19 June 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f67452c7e60beea625ce3154f",
-      "url": "https://open.spotify.com/episode/6K7en2wEI36ttDSNc7fo1L",
-      "spotify_uri": "spotify:episode:6K7en2wEI36ttDSNc7fo1L"
     }
   ]
 }
