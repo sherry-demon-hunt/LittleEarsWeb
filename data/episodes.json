@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-07-09T20:07:14.686Z",
+  "generated_at": "2026-07-10T04:18:15.522Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "742A7WRLtvZxy34nEBYgMH",
+      "n": "Episode 18",
+      "title": "Ep18. Why can we see lightning, but it does not smash our backyard?",
+      "desc": "Why can we see lightning flashing across the sky, but it doesn’t always hit our backyard? In this episode, Lily and Max explore what lightning really is, why it can look close when it is far away, why thunder comes after the flash, and how lightning finds its path through the air. With giant earmuffs, cloud batteries, zigzag zaps, and simple storm safety tips, this episode helps curious kids understand lightning in a fun, reassuring way.",
+      "len": "8 min",
+      "date": "10 July 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f9f3cc5745bcd25ab967e542c",
+      "url": "https://open.spotify.com/episode/742A7WRLtvZxy34nEBYgMH",
+      "spotify_uri": "spotify:episode:742A7WRLtvZxy34nEBYgMH"
+    },
     {
       "id": "2VtGI8vxLhr6SVjEDH3xOs",
       "n": "Episode 17",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f46f7f2a6f40757445220a9b3",
       "url": "https://open.spotify.com/episode/28ViUfVwmbymZaDNB4Ipse",
       "spotify_uri": "spotify:episode:28ViUfVwmbymZaDNB4Ipse"
-    },
-    {
-      "id": "22YsV92NWBH8Iyiul6TZKj",
-      "n": "Episode 13",
-      "title": "Ep13. Why do spiders make webs?",
-      "desc": "In this episode, Lily and Max explore why spiders make webs . They discover that spider webs are not just spooky decorations. They are clever tools for catching food, building shelters, protecting eggs, and even making safety lines. This episode turns spider science into a fun, friendly adventure for curious kids.",
-      "len": "9 min",
-      "date": "23 June 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f61c2f89e53ce2a5945c1e665",
-      "url": "https://open.spotify.com/episode/22YsV92NWBH8Iyiul6TZKj",
-      "spotify_uri": "spotify:episode:22YsV92NWBH8Iyiul6TZKj"
     }
   ]
 }
