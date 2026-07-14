@@ -1,12 +1,23 @@
 {
-  "generated_at": "2026-07-13T19:52:16.293Z",
+  "generated_at": "2026-07-14T03:38:47.453Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
     {
+      "id": "7C9onc8RjvrtYU16trZY7I",
+      "n": "Episode 19",
+      "title": "Ep19. How does soap clean hands?",
+      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max explore how soap cleans hands. They discover why water alone is not always enough, how tiny soap molecules grab greasy dirt, and why rubbing, rinsing, and bubbles help wash germs away. It is a bubbly, squeaky, science-filled handwashing adventure for curious kids.",
+      "len": "9 min",
+      "date": "14 July 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f0f08b565d51bdbb475745161",
+      "url": "https://open.spotify.com/episode/7C9onc8RjvrtYU16trZY7I",
+      "spotify_uri": "spotify:episode:7C9onc8RjvrtYU16trZY7I"
+    },
+    {
       "id": "6fPwQL976jZeKZ7LuOoVAO",
-      "n": "Episode 1",
+      "n": "Episode 2",
       "title": "Special Episode. Why do kids always say they're not cold?",
       "desc": "In this funny Big Ears Edition, Lily and Max investigate why kids can stand in winter wearing shorts and a T-shirt while insisting they are “not cold.” From busy bodies and brave legs to jacket battles and emergency hoodies, this episode helps grownups understand what might really be going on, while giving kids a giggle too.",
       "len": "6 min",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f646ceb57a0999649107d7ece",
       "url": "https://open.spotify.com/episode/4rgxvQsikFjdH9UJ93fcXH",
       "spotify_uri": "spotify:episode:4rgxvQsikFjdH9UJ93fcXH"
-    },
-    {
-      "id": "4j3D1wJP0VoD1ugCc8vj17",
-      "n": "Episode 15",
-      "title": "Ep15. Why some people have straight hair and others have curly hair?",
-      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max explore why some people have straight hair while others have curls, waves, or coils. With help from Alex’s question, they discover tiny hair follicles, genes, keratin, frizz, and why every hair type is wonderfully different.",
-      "len": "8 min",
-      "date": "30 June 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1faad0f71d8cff1246af0adafa",
-      "url": "https://open.spotify.com/episode/4j3D1wJP0VoD1ugCc8vj17",
-      "spotify_uri": "spotify:episode:4j3D1wJP0VoD1ugCc8vj17"
     }
   ]
 }
