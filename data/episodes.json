@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-07-16T19:35:30.368Z",
+  "generated_at": "2026-07-17T03:41:01.032Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "2HKFvHWR7b8T7auAkPrtu8",
+      "n": "Episode 20",
+      "title": "Ep20. Why did the Big Bang happen?",
+      "desc": "Why did the Big Bang happen and was it really a giant explosion? In this mind-stretching episode, Lily and Max explore one of science’s biggest mysteries in a kid-friendly way. They discover how the universe began expanding, why scientists think space was once extremely hot and dense, what clues are left behind from the early universe, and why some questions are still being investigated today. It is a cosmic adventure full of galaxies, mystery boxes, star confetti, and very big “why?” questions.",
+      "len": "10 min",
+      "date": "17 July 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f7b81c9ed2763db062888565d",
+      "url": "https://open.spotify.com/episode/2HKFvHWR7b8T7auAkPrtu8",
+      "spotify_uri": "spotify:episode:2HKFvHWR7b8T7auAkPrtu8"
+    },
     {
       "id": "7C9onc8RjvrtYU16trZY7I",
       "n": "Episode 19",
@@ -17,7 +28,7 @@
     },
     {
       "id": "6fPwQL976jZeKZ7LuOoVAO",
-      "n": "Episode 2",
+      "n": "Episode 3",
       "title": "Special Episode. Why do kids always say they're not cold?",
       "desc": "In this funny Big Ears Edition, Lily and Max investigate why kids can stand in winter wearing shorts and a T-shirt while insisting they are “not cold.” From busy bodies and brave legs to jacket battles and emergency hoodies, this episode helps grownups understand what might really be going on, while giving kids a giggle too.",
       "len": "6 min",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f70535d4a387e279d7d29fcd0",
       "url": "https://open.spotify.com/episode/2VtGI8vxLhr6SVjEDH3xOs",
       "spotify_uri": "spotify:episode:2VtGI8vxLhr6SVjEDH3xOs"
-    },
-    {
-      "id": "4rgxvQsikFjdH9UJ93fcXH",
-      "n": "Episode 16",
-      "title": "Ep16. Why can't we have rainbow skin?",
-      "desc": "In this colourful episode, Lily and Max explore Zelda’s brilliant question: why can’t we have rainbow skin? They discover what gives human skin its colour, how rainbows are made from light, and the surprising hidden patterns called Blaschko’s lines that most people can’t see.",
-      "len": "8 min",
-      "date": "3 July 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f646ceb57a0999649107d7ece",
-      "url": "https://open.spotify.com/episode/4rgxvQsikFjdH9UJ93fcXH",
-      "spotify_uri": "spotify:episode:4rgxvQsikFjdH9UJ93fcXH"
     }
   ]
 }
