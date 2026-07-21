@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-07-20T19:58:29.394Z",
+  "generated_at": "2026-07-21T03:49:39.693Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "3gLXnHfsATSiCQUfH1EkS1",
+      "n": "Episode 21",
+      "title": "Ep21. Why do we love sweet things so much?",
+      "desc": "In this sweet and curious episode of Little Ears, Big Ideas, we find out why our brains get so excited about sugary foods. From taste buds and energy signals to “just one more bite” feelings, Lily and Max explore why sweet things can feel so hard to resist and how we can enjoy treats while still looking after our bodies and teeth.",
+      "len": "12 min",
+      "date": "21 July 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f8831ad418fbdc3987d3250bd",
+      "url": "https://open.spotify.com/episode/3gLXnHfsATSiCQUfH1EkS1",
+      "spotify_uri": "spotify:episode:3gLXnHfsATSiCQUfH1EkS1"
+    },
     {
       "id": "2HKFvHWR7b8T7auAkPrtu8",
       "n": "Episode 20",
@@ -28,7 +39,7 @@
     },
     {
       "id": "6fPwQL976jZeKZ7LuOoVAO",
-      "n": "Episode 3",
+      "n": "Episode 4",
       "title": "Special Episode. Why do kids always say they're not cold?",
       "desc": "In this funny Big Ears Edition, Lily and Max investigate why kids can stand in winter wearing shorts and a T-shirt while insisting they are “not cold.” From busy bodies and brave legs to jacket battles and emergency hoodies, this episode helps grownups understand what might really be going on, while giving kids a giggle too.",
       "len": "6 min",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f9f3cc5745bcd25ab967e542c",
       "url": "https://open.spotify.com/episode/742A7WRLtvZxy34nEBYgMH",
       "spotify_uri": "spotify:episode:742A7WRLtvZxy34nEBYgMH"
-    },
-    {
-      "id": "2VtGI8vxLhr6SVjEDH3xOs",
-      "n": "Episode 17",
-      "title": "Ep17. Why do different countries speak different languages?",
-      "desc": "In this episode, Arthur asks why people in different countries speak different languages. Lily and Max take a fun world tour through mountains, accents, writing systems, travelling words, baby language detectives, and why words can carry family, culture, history and home. Along the way, they discover that languages are not just different sounds, they are also people’s stories.",
-      "len": "11 min",
-      "date": "7 July 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f70535d4a387e279d7d29fcd0",
-      "url": "https://open.spotify.com/episode/2VtGI8vxLhr6SVjEDH3xOs",
-      "spotify_uri": "spotify:episode:2VtGI8vxLhr6SVjEDH3xOs"
     }
   ]
 }
