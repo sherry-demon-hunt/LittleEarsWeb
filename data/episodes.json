@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-07-23T19:48:31.007Z",
+  "generated_at": "2026-07-24T03:47:17.801Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "0YxiwKXtqiUpJyKOZoNlZ3",
+      "n": "Episode 22",
+      "title": "Ep22.How does internet connect things?",
+      "desc": "How does the internet send a Pokémon video from a computer far away all the way to your tablet? In this episode, Lily and Max follow the journey through Wi-Fi, routers, servers, cables, packets and even underwater fibre-optic lines. It is a fast, funny adventure through the invisible network connecting our world.",
+      "len": "12 min",
+      "date": "24 July 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f749b54a3d630bf18cdced251",
+      "url": "https://open.spotify.com/episode/0YxiwKXtqiUpJyKOZoNlZ3",
+      "spotify_uri": "spotify:episode:0YxiwKXtqiUpJyKOZoNlZ3"
+    },
     {
       "id": "3gLXnHfsATSiCQUfH1EkS1",
       "n": "Episode 21",
@@ -39,7 +50,7 @@
     },
     {
       "id": "6fPwQL976jZeKZ7LuOoVAO",
-      "n": "Episode 4",
+      "n": "Episode 5",
       "title": "Special Episode. Why do kids always say they're not cold?",
       "desc": "In this funny Big Ears Edition, Lily and Max investigate why kids can stand in winter wearing shorts and a T-shirt while insisting they are “not cold.” From busy bodies and brave legs to jacket battles and emergency hoodies, this episode helps grownups understand what might really be going on, while giving kids a giggle too.",
       "len": "6 min",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fcc2500808fa73844a0e3d891",
       "url": "https://open.spotify.com/episode/6fPwQL976jZeKZ7LuOoVAO",
       "spotify_uri": "spotify:episode:6fPwQL976jZeKZ7LuOoVAO"
-    },
-    {
-      "id": "742A7WRLtvZxy34nEBYgMH",
-      "n": "Episode 18",
-      "title": "Ep18. Why can we see lightning, but it does not smash our backyard?",
-      "desc": "Why can we see lightning flashing across the sky, but it doesn’t always hit our backyard? In this episode, Lily and Max explore what lightning really is, why it can look close when it is far away, why thunder comes after the flash, and how lightning finds its path through the air. With giant earmuffs, cloud batteries, zigzag zaps, and simple storm safety tips, this episode helps curious kids understand lightning in a fun, reassuring way.",
-      "len": "8 min",
-      "date": "10 July 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f9f3cc5745bcd25ab967e542c",
-      "url": "https://open.spotify.com/episode/742A7WRLtvZxy34nEBYgMH",
-      "spotify_uri": "spotify:episode:742A7WRLtvZxy34nEBYgMH"
     }
   ]
 }
