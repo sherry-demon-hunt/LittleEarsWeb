@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-07-27T19:57:53.767Z",
+  "generated_at": "2026-07-28T03:40:27.422Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "6x1BJVeKpsRUWhGzDvg2GP",
+      "n": "Episode 23",
+      "title": "Ep23. How does medicine make us feel better?",
+      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max explore what happens after medicine enters the body. They discover how different medicines can reduce pain, lower fever, fight certain bacteria, calm inflammation and help the body do its healing work.",
+      "len": "11 min",
+      "date": "28 July 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1fa8d493759cc0c023703fb8a5",
+      "url": "https://open.spotify.com/episode/6x1BJVeKpsRUWhGzDvg2GP",
+      "spotify_uri": "spotify:episode:6x1BJVeKpsRUWhGzDvg2GP"
+    },
     {
       "id": "0YxiwKXtqiUpJyKOZoNlZ3",
       "n": "Episode 22",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f0f08b565d51bdbb475745161",
       "url": "https://open.spotify.com/episode/7C9onc8RjvrtYU16trZY7I",
       "spotify_uri": "spotify:episode:7C9onc8RjvrtYU16trZY7I"
-    },
-    {
-      "id": "6fPwQL976jZeKZ7LuOoVAO",
-      "n": "Episode 5",
-      "title": "Special Episode. Why do kids always say they're not cold?",
-      "desc": "In this funny Big Ears Edition, Lily and Max investigate why kids can stand in winter wearing shorts and a T-shirt while insisting they are “not cold.” From busy bodies and brave legs to jacket battles and emergency hoodies, this episode helps grownups understand what might really be going on, while giving kids a giggle too.",
-      "len": "6 min",
-      "date": "11 July 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1fcc2500808fa73844a0e3d891",
-      "url": "https://open.spotify.com/episode/6fPwQL976jZeKZ7LuOoVAO",
-      "spotify_uri": "spotify:episode:6fPwQL976jZeKZ7LuOoVAO"
     }
   ]
 }
