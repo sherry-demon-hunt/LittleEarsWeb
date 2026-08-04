@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-08-03T20:00:37.150Z",
+  "generated_at": "2026-08-04T03:41:53.016Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "25wF87R16d1T6LStJIngAy",
+      "n": "Episode 25",
+      "title": "Ep25. How can chameleons change colours?",
+      "desc": "In this episode, Lily and Max discover that chameleons do not use magic, paint, or tiny artists. Instead, their skin has special colour cells and tiny crystal-like structures that reflect light in different ways. They learn that chameleons change colour to communicate, stay warm or cool, and sometimes help with hiding.",
+      "len": "9 min",
+      "date": "4 Aug 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1fa8ac18cebcf2fa5ef44e3c28",
+      "url": "https://open.spotify.com/episode/25wF87R16d1T6LStJIngAy",
+      "spotify_uri": "spotify:episode:25wF87R16d1T6LStJIngAy"
+    },
     {
       "id": "0RbsskzflDUPdkYOsrS9Ya",
       "n": "Episode 24",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f8831ad418fbdc3987d3250bd",
       "url": "https://open.spotify.com/episode/3gLXnHfsATSiCQUfH1EkS1",
       "spotify_uri": "spotify:episode:3gLXnHfsATSiCQUfH1EkS1"
-    },
-    {
-      "id": "2HKFvHWR7b8T7auAkPrtu8",
-      "n": "Episode 20",
-      "title": "Ep20. Why did the Big Bang happen?",
-      "desc": "Why did the Big Bang happen and was it really a giant explosion? In this mind-stretching episode, Lily and Max explore one of science’s biggest mysteries in a kid-friendly way. They discover how the universe began expanding, why scientists think space was once extremely hot and dense, what clues are left behind from the early universe, and why some questions are still being investigated today. It is a cosmic adventure full of galaxies, mystery boxes, star confetti, and very big “why?” questions.",
-      "len": "10 min",
-      "date": "17 July 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f7b81c9ed2763db062888565d",
-      "url": "https://open.spotify.com/episode/2HKFvHWR7b8T7auAkPrtu8",
-      "spotify_uri": "spotify:episode:2HKFvHWR7b8T7auAkPrtu8"
     }
   ]
 }
