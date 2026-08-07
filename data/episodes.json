@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-08-06T14:37:29.611Z",
+  "generated_at": "2026-08-07T00:17:25.552Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "6cTwC5F0mrXdVzPb8vrrgK",
+      "n": "Episode 26",
+      "title": "Ep26. How is tissue made?",
+      "desc": "In this episode, Lily and Max follow the journey from tiny wood fibres and watery pulp to giant drying machines, soft layers and neatly folded tissues in a box.",
+      "len": "11 min",
+      "date": "7 Aug 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f81110dbc2f0976e4e4221225",
+      "url": "https://open.spotify.com/episode/6cTwC5F0mrXdVzPb8vrrgK",
+      "spotify_uri": "spotify:episode:6cTwC5F0mrXdVzPb8vrrgK"
+    },
     {
       "id": "25wF87R16d1T6LStJIngAy",
       "n": "Episode 25",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f749b54a3d630bf18cdced251",
       "url": "https://open.spotify.com/episode/0YxiwKXtqiUpJyKOZoNlZ3",
       "spotify_uri": "spotify:episode:0YxiwKXtqiUpJyKOZoNlZ3"
-    },
-    {
-      "id": "3gLXnHfsATSiCQUfH1EkS1",
-      "n": "Episode 21",
-      "title": "Ep21. Why do we love sweet things so much?",
-      "desc": "In this sweet and curious episode of Little Ears, Big Ideas, we find out why our brains get so excited about sugary foods. From taste buds and energy signals to “just one more bite” feelings, Lily and Max explore why sweet things can feel so hard to resist and how we can enjoy treats while still looking after our bodies and teeth.",
-      "len": "12 min",
-      "date": "21 July 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f8831ad418fbdc3987d3250bd",
-      "url": "https://open.spotify.com/episode/3gLXnHfsATSiCQUfH1EkS1",
-      "spotify_uri": "spotify:episode:3gLXnHfsATSiCQUfH1EkS1"
     }
   ]
 }
