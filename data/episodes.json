@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-08-10T19:20:09.373Z",
+  "generated_at": "2026-08-11T02:29:55.637Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "6jNGDYmq5OXLCXEzdTNBsA",
+      "n": "Episode 27",
+      "title": "Ep27. What is blood made of?",
+      "desc": "After a tiny paper cut sparks a very dramatic “emergency,” Lily and Max take a closer look at the amazing stuff flowing through our bodies. Discover the four main parts of blood: plasma, red blood cells, white blood cells, and platelets , and learn how they work together to carry oxygen, fight germs, deliver nutrients, and patch up cuts.",
+      "len": "9 min",
+      "date": "11 Aug 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f01bde1746ec756e6b576a673",
+      "url": "https://open.spotify.com/episode/6jNGDYmq5OXLCXEzdTNBsA",
+      "spotify_uri": "spotify:episode:6jNGDYmq5OXLCXEzdTNBsA"
+    },
     {
       "id": "6cTwC5F0mrXdVzPb8vrrgK",
       "n": "Episode 26",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fa8d493759cc0c023703fb8a5",
       "url": "https://open.spotify.com/episode/6x1BJVeKpsRUWhGzDvg2GP",
       "spotify_uri": "spotify:episode:6x1BJVeKpsRUWhGzDvg2GP"
-    },
-    {
-      "id": "0YxiwKXtqiUpJyKOZoNlZ3",
-      "n": "Episode 22",
-      "title": "Ep22.How does internet connect things?",
-      "desc": "How does the internet send a Pokémon video from a computer far away all the way to your tablet? In this episode, Lily and Max follow the journey through Wi-Fi, routers, servers, cables, packets and even underwater fibre-optic lines. It is a fast, funny adventure through the invisible network connecting our world.",
-      "len": "12 min",
-      "date": "24 July 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f749b54a3d630bf18cdced251",
-      "url": "https://open.spotify.com/episode/0YxiwKXtqiUpJyKOZoNlZ3",
-      "spotify_uri": "spotify:episode:0YxiwKXtqiUpJyKOZoNlZ3"
     }
   ]
 }
