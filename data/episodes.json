@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-08-13T19:27:59.979Z",
+  "generated_at": "2026-08-14T02:48:22.488Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "5tZyPKk4oDcHI96Bc1xRZf",
+      "n": "Episode 28",
+      "title": "Ep28. How big is the universe?",
+      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max zoom out from Earth to the Solar System, the Milky Way, and far beyond to discover just how enormous space really is.",
+      "len": "12 min",
+      "date": "14 Aug 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f1dea891dec926ee225e95007",
+      "url": "https://open.spotify.com/episode/5tZyPKk4oDcHI96Bc1xRZf",
+      "spotify_uri": "spotify:episode:5tZyPKk4oDcHI96Bc1xRZf"
+    },
     {
       "id": "6jNGDYmq5OXLCXEzdTNBsA",
       "n": "Episode 27",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fbb96d7511715638b43eeb91f",
       "url": "https://open.spotify.com/episode/0RbsskzflDUPdkYOsrS9Ya",
       "spotify_uri": "spotify:episode:0RbsskzflDUPdkYOsrS9Ya"
-    },
-    {
-      "id": "6x1BJVeKpsRUWhGzDvg2GP",
-      "n": "Episode 23",
-      "title": "Ep23. How does medicine make us feel better?",
-      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max explore what happens after medicine enters the body. They discover how different medicines can reduce pain, lower fever, fight certain bacteria, calm inflammation and help the body do its healing work.",
-      "len": "11 min",
-      "date": "28 July 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1fa8d493759cc0c023703fb8a5",
-      "url": "https://open.spotify.com/episode/6x1BJVeKpsRUWhGzDvg2GP",
-      "spotify_uri": "spotify:episode:6x1BJVeKpsRUWhGzDvg2GP"
     }
   ]
 }
