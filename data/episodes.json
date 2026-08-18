@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-08-17T19:00:09.379Z",
+  "generated_at": "2026-08-18T01:52:48.808Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "1FoJqsRYaFN1yeKInl9fY3",
+      "n": "Episode 29",
+      "title": "Ep29. How do earthquakes happen?",
+      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max head beneath the Earth’s surface to discover tectonic plates, faults, seismic waves and the enormous forces that can build up underground. With a simple hands-on experiment, they explore how rocks can get stuck, pressure can build, and a sudden slip can send vibrations travelling through the Earth.",
+      "len": "13 min",
+      "date": "18 Aug 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f66371e904b29af51db929d90",
+      "url": "https://open.spotify.com/episode/1FoJqsRYaFN1yeKInl9fY3",
+      "spotify_uri": "spotify:episode:1FoJqsRYaFN1yeKInl9fY3"
+    },
     {
       "id": "5tZyPKk4oDcHI96Bc1xRZf",
       "n": "Episode 28",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fa8ac18cebcf2fa5ef44e3c28",
       "url": "https://open.spotify.com/episode/25wF87R16d1T6LStJIngAy",
       "spotify_uri": "spotify:episode:25wF87R16d1T6LStJIngAy"
-    },
-    {
-      "id": "0RbsskzflDUPdkYOsrS9Ya",
-      "n": "Episode 24",
-      "title": "Ep24. Why can dragons breathe file but dinosaurs can't?",
-      "desc": "In this episode, Lily and Max explore the difference between imaginary creatures and real animals, discover how dragons are portrayed in cultures around the world, and investigate what a body would actually need to produce fire. Along the way, they meet some amazing real animals with dragon-like abilities and learn how fossils help scientists understand what dinosaurs could and could not do. It is a fiery adventure where science meets mythology and imagination!",
-      "len": "9 min",
-      "date": "31 July 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1fbb96d7511715638b43eeb91f",
-      "url": "https://open.spotify.com/episode/0RbsskzflDUPdkYOsrS9Ya",
-      "spotify_uri": "spotify:episode:0RbsskzflDUPdkYOsrS9Ya"
     }
   ]
 }
