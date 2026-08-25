@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-08-24T19:02:49.159Z",
+  "generated_at": "2026-08-25T01:54:35.914Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "0HoPiutEryOF89Tmh0HWSO",
+      "n": "Episode 30",
+      "title": "Ep30. Why can land animals walk, but ocean animals can't?",
+      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max explore how animals’ bodies are perfectly suited to the places they live. We’ll discover why legs are so useful on land, how fins and flippers help animals move through water",
+      "len": "7 min",
+      "date": "25 Aug 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1fb47231c6f882cccc5c493583",
+      "url": "https://open.spotify.com/episode/0HoPiutEryOF89Tmh0HWSO",
+      "spotify_uri": "spotify:episode:0HoPiutEryOF89Tmh0HWSO"
+    },
     {
       "id": "1FoJqsRYaFN1yeKInl9fY3",
       "n": "Episode 29",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f81110dbc2f0976e4e4221225",
       "url": "https://open.spotify.com/episode/6cTwC5F0mrXdVzPb8vrrgK",
       "spotify_uri": "spotify:episode:6cTwC5F0mrXdVzPb8vrrgK"
-    },
-    {
-      "id": "25wF87R16d1T6LStJIngAy",
-      "n": "Episode 25",
-      "title": "Ep25. How can chameleons change colours?",
-      "desc": "In this episode, Lily and Max discover that chameleons do not use magic, paint, or tiny artists. Instead, their skin has special colour cells and tiny crystal-like structures that reflect light in different ways. They learn that chameleons change colour to communicate, stay warm or cool, and sometimes help with hiding.",
-      "len": "9 min",
-      "date": "4 Aug 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1fa8ac18cebcf2fa5ef44e3c28",
-      "url": "https://open.spotify.com/episode/25wF87R16d1T6LStJIngAy",
-      "spotify_uri": "spotify:episode:25wF87R16d1T6LStJIngAy"
     }
   ]
 }
