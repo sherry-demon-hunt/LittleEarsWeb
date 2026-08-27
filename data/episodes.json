@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-08-27T09:55:55.062Z",
+  "generated_at": "2026-08-27T22:19:01.378Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "3fRYpf3igdLcZTUqx6RLiB",
+      "n": "Episode 31",
+      "title": "Ep31. How do toilets flush?",
+      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max dive into the surprisingly clever science hiding inside an everyday toilet. Discover where the flushing water comes from, how gravity helps create that powerful WHOOSH, what a siphon does, why toilets have a bendy trapway, and how the tank magically knows when to stop filling.",
+      "len": "8 min",
+      "date": "28 Aug 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f8a5cef299a6944add2cc87a5",
+      "url": "https://open.spotify.com/episode/3fRYpf3igdLcZTUqx6RLiB",
+      "spotify_uri": "spotify:episode:3fRYpf3igdLcZTUqx6RLiB"
+    },
     {
       "id": "0HoPiutEryOF89Tmh0HWSO",
       "n": "Episode 30",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f01bde1746ec756e6b576a673",
       "url": "https://open.spotify.com/episode/6jNGDYmq5OXLCXEzdTNBsA",
       "spotify_uri": "spotify:episode:6jNGDYmq5OXLCXEzdTNBsA"
-    },
-    {
-      "id": "6cTwC5F0mrXdVzPb8vrrgK",
-      "n": "Episode 26",
-      "title": "Ep26. How is tissue made?",
-      "desc": "In this episode, Lily and Max follow the journey from tiny wood fibres and watery pulp to giant drying machines, soft layers and neatly folded tissues in a box.",
-      "len": "11 min",
-      "date": "7 Aug 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f81110dbc2f0976e4e4221225",
-      "url": "https://open.spotify.com/episode/6cTwC5F0mrXdVzPb8vrrgK",
-      "spotify_uri": "spotify:episode:6cTwC5F0mrXdVzPb8vrrgK"
     }
   ]
 }
