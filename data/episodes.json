@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-09-03T16:29:52.338Z",
+  "generated_at": "2026-09-03T21:06:12.003Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "3AURcvbxYwbJUFR6Zh32wI",
+      "n": "Episode 33",
+      "title": "Ep33. I keep telling myself I can do something, will I get better at It?",
+      "desc": "In this episode, Lily and Max explore the surprising power of self-talk and why positive words work best when they’re followed by practice and action.",
+      "len": "11 min",
+      "date": "4 Sept 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f484c050baf6c4cfe42d3e4e7",
+      "url": "https://open.spotify.com/episode/3AURcvbxYwbJUFR6Zh32wI",
+      "spotify_uri": "spotify:episode:3AURcvbxYwbJUFR6Zh32wI"
+    },
     {
       "id": "5rwV1THxtE8crw1O3PZ3lh",
       "n": "Episode 32",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f66371e904b29af51db929d90",
       "url": "https://open.spotify.com/episode/1FoJqsRYaFN1yeKInl9fY3",
       "spotify_uri": "spotify:episode:1FoJqsRYaFN1yeKInl9fY3"
-    },
-    {
-      "id": "5tZyPKk4oDcHI96Bc1xRZf",
-      "n": "Episode 28",
-      "title": "Ep28. How big is the universe?",
-      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max zoom out from Earth to the Solar System, the Milky Way, and far beyond to discover just how enormous space really is.",
-      "len": "12 min",
-      "date": "14 Aug 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f1dea891dec926ee225e95007",
-      "url": "https://open.spotify.com/episode/5tZyPKk4oDcHI96Bc1xRZf",
-      "spotify_uri": "spotify:episode:5tZyPKk4oDcHI96Bc1xRZf"
     }
   ]
 }
