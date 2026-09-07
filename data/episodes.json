@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-09-07T12:41:54.349Z",
+  "generated_at": "2026-09-07T21:34:12.283Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "5gZALhw0TDyZsyShJ3zBVO",
+      "n": "Episode 34",
+      "title": "Ep34. Why do spoons flip your face reflection?",
+      "desc": "In this episode, Lily and Max investigate how shiny spoons reflect light, discover the difference between convex and concave surfaces, and learn why moving a spoon closer can suddenly flip your reflection again. With a light-ray race, funny stretched faces and an easy experiment to try at home, an ordinary spoon becomes a tiny science laboratory!",
+      "len": "11 min",
+      "date": "8 Sept 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1fbbc518308f2c6182f1c5f574",
+      "url": "https://open.spotify.com/episode/5gZALhw0TDyZsyShJ3zBVO",
+      "spotify_uri": "spotify:episode:5gZALhw0TDyZsyShJ3zBVO"
+    },
     {
       "id": "3AURcvbxYwbJUFR6Zh32wI",
       "n": "Episode 33",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fb47231c6f882cccc5c493583",
       "url": "https://open.spotify.com/episode/0HoPiutEryOF89Tmh0HWSO",
       "spotify_uri": "spotify:episode:0HoPiutEryOF89Tmh0HWSO"
-    },
-    {
-      "id": "1FoJqsRYaFN1yeKInl9fY3",
-      "n": "Episode 29",
-      "title": "Ep29. How do earthquakes happen?",
-      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max head beneath the Earth’s surface to discover tectonic plates, faults, seismic waves and the enormous forces that can build up underground. With a simple hands-on experiment, they explore how rocks can get stuck, pressure can build, and a sudden slip can send vibrations travelling through the Earth.",
-      "len": "13 min",
-      "date": "18 Aug 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f66371e904b29af51db929d90",
-      "url": "https://open.spotify.com/episode/1FoJqsRYaFN1yeKInl9fY3",
-      "spotify_uri": "spotify:episode:1FoJqsRYaFN1yeKInl9fY3"
     }
   ]
 }
