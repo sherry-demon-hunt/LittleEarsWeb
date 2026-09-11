@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-09-10T20:55:34.651Z",
+  "generated_at": "2026-09-11T04:47:15.043Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "37ULsH0SjQ20ZXG8D0ubE5",
+      "n": "Episode 35",
+      "title": "Ep35. Why is Venus the hottest planet?",
+      "desc": "In this scorching episode, Lily and Max discover how Venus’s thick carbon dioxide atmosphere traps heat like an enormous blanket. They also explore Venus’s backwards spin, find out why one Venusian rotation is longer than its year, and learn how scientists use radar to see through its mysterious clouds.",
+      "len": "12 min",
+      "date": "11 Sept 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f84c2dc358a6dc96d29bb2942",
+      "url": "https://open.spotify.com/episode/37ULsH0SjQ20ZXG8D0ubE5",
+      "spotify_uri": "spotify:episode:37ULsH0SjQ20ZXG8D0ubE5"
+    },
     {
       "id": "5gZALhw0TDyZsyShJ3zBVO",
       "n": "Episode 34",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f8a5cef299a6944add2cc87a5",
       "url": "https://open.spotify.com/episode/3fRYpf3igdLcZTUqx6RLiB",
       "spotify_uri": "spotify:episode:3fRYpf3igdLcZTUqx6RLiB"
-    },
-    {
-      "id": "0HoPiutEryOF89Tmh0HWSO",
-      "n": "Episode 30",
-      "title": "Ep30. Why can land animals walk, but ocean animals can't?",
-      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max explore how animals’ bodies are perfectly suited to the places they live. We’ll discover why legs are so useful on land, how fins and flippers help animals move through water",
-      "len": "7 min",
-      "date": "25 Aug 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1fb47231c6f882cccc5c493583",
-      "url": "https://open.spotify.com/episode/0HoPiutEryOF89Tmh0HWSO",
-      "spotify_uri": "spotify:episode:0HoPiutEryOF89Tmh0HWSO"
     }
   ]
 }
