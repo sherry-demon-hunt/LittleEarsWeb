@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-09-14T12:56:58.431Z",
+  "generated_at": "2026-09-14T21:53:01.487Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "6Fq04Rd5N0joi4FhKYfJr7",
+      "n": "Episode 36",
+      "title": "Ep36. How do seeds grow?",
+      "desc": "In this episode, Lily and Max discover how a tiny seed grows into a whole plant! They peek inside a seed to find the baby plant waiting within, learn what wakes a sleeping seed, and explore how roots know to grow down while shoots reach up toward the light. They also investigate how a delicate shoot pushes through soil, and what happens when a seed doesn’t get the water, warmth or oxygen it needs.",
+      "len": "11 min",
+      "date": "15 Sept 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1fd0256abf02cd8836ecc19781",
+      "url": "https://open.spotify.com/episode/6Fq04Rd5N0joi4FhKYfJr7",
+      "spotify_uri": "spotify:episode:6Fq04Rd5N0joi4FhKYfJr7"
+    },
     {
       "id": "37ULsH0SjQ20ZXG8D0ubE5",
       "n": "Episode 35",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f7359fa302e24c12501fff5d2",
       "url": "https://open.spotify.com/episode/5rwV1THxtE8crw1O3PZ3lh",
       "spotify_uri": "spotify:episode:5rwV1THxtE8crw1O3PZ3lh"
-    },
-    {
-      "id": "3fRYpf3igdLcZTUqx6RLiB",
-      "n": "Episode 31",
-      "title": "Ep31. How do toilets flush?",
-      "desc": "In this episode of Little Ears, Big Ideas, Lily and Max dive into the surprisingly clever science hiding inside an everyday toilet. Discover where the flushing water comes from, how gravity helps create that powerful WHOOSH, what a siphon does, why toilets have a bendy trapway, and how the tank magically knows when to stop filling.",
-      "len": "8 min",
-      "date": "28 Aug 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f8a5cef299a6944add2cc87a5",
-      "url": "https://open.spotify.com/episode/3fRYpf3igdLcZTUqx6RLiB",
-      "spotify_uri": "spotify:episode:3fRYpf3igdLcZTUqx6RLiB"
     }
   ]
 }
