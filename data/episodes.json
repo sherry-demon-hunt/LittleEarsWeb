@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-09-21T12:56:32.225Z",
+  "generated_at": "2026-09-21T22:01:04.377Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "00cxCuj7O2IFQZHRXBuUzC",
+      "n": "Episode 38",
+      "title": "Ep38. Why do magnets attract metal?",
+      "desc": "In this episode, Lily and Max discover why magnets attract some metals but leave others alone. They go on a magnet hunt, move a paper clip through cardboard, and build a dangling paper clip chain. Along the way, they explore invisible magnetic fields, find out why distance matters, and learn how a material can become a magnet.",
+      "len": "11 min",
+      "date": "22 Sept 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f0588814b7cba16e2543b0c81",
+      "url": "https://open.spotify.com/episode/00cxCuj7O2IFQZHRXBuUzC",
+      "spotify_uri": "spotify:episode:00cxCuj7O2IFQZHRXBuUzC"
+    },
     {
       "id": "6YccUZcEQwHeldzvhtls92",
       "n": "Episode 37",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fbbc518308f2c6182f1c5f574",
       "url": "https://open.spotify.com/episode/5gZALhw0TDyZsyShJ3zBVO",
       "spotify_uri": "spotify:episode:5gZALhw0TDyZsyShJ3zBVO"
-    },
-    {
-      "id": "3AURcvbxYwbJUFR6Zh32wI",
-      "n": "Episode 33",
-      "title": "Ep33. I keep telling myself I can do something, will I get better at It?",
-      "desc": "In this episode, Lily and Max explore the surprising power of self-talk and why positive words work best when they’re followed by practice and action.",
-      "len": "11 min",
-      "date": "4 Sept 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f484c050baf6c4cfe42d3e4e7",
-      "url": "https://open.spotify.com/episode/3AURcvbxYwbJUFR6Zh32wI",
-      "spotify_uri": "spotify:episode:3AURcvbxYwbJUFR6Zh32wI"
     }
   ]
 }
