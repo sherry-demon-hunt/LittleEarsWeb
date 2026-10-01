@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-10-01T13:26:31.261Z",
+  "generated_at": "2026-10-01T22:44:33.819Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "5xqsoLSrIM6gKHJ5btbuht",
+      "n": "Episode 41",
+      "title": "Ep41. Why do we trick-or-treat at Halloween?",
+      "desc": "In this episode, Lily and Max take a playful trip through time to discover why we trick-or-treat at Halloween and why our buckets fill with sweets! 🎃🍬 From harvest celebrations and little soul cakes to costumes, doorstep jokes and lanterns carved from turnips, they explore how centuries of traditions helped shape Halloween today.",
+      "len": "13 min",
+      "date": "2 Oct 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1fd6a900ede419210d84206a2d",
+      "url": "https://open.spotify.com/episode/5xqsoLSrIM6gKHJ5btbuht",
+      "spotify_uri": "spotify:episode:5xqsoLSrIM6gKHJ5btbuht"
+    },
     {
       "id": "3tQWSfF64LTA88oAsT2auZ",
       "n": "Episode 40",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f9902156d5a7194d5ab767c94",
       "url": "https://open.spotify.com/episode/6YccUZcEQwHeldzvhtls92",
       "spotify_uri": "spotify:episode:6YccUZcEQwHeldzvhtls92"
-    },
-    {
-      "id": "6Fq04Rd5N0joi4FhKYfJr7",
-      "n": "Episode 36",
-      "title": "Ep36. How do seeds grow?",
-      "desc": "In this episode, Lily and Max discover how a tiny seed grows into a whole plant! They peek inside a seed to find the baby plant waiting within, learn what wakes a sleeping seed, and explore how roots know to grow down while shoots reach up toward the light. They also investigate how a delicate shoot pushes through soil, and what happens when a seed doesn’t get the water, warmth or oxygen it needs.",
-      "len": "11 min",
-      "date": "15 Sept 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1fd0256abf02cd8836ecc19781",
-      "url": "https://open.spotify.com/episode/6Fq04Rd5N0joi4FhKYfJr7",
-      "spotify_uri": "spotify:episode:6Fq04Rd5N0joi4FhKYfJr7"
     }
   ]
 }
