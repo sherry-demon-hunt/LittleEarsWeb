@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-10-05T14:50:50.813Z",
+  "generated_at": "2026-10-06T00:06:55.182Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "0ahgL1EegNbP3dseEfgap0",
+      "n": "Episode 42",
+      "title": "Ep42. Why do bats hang upside down?",
+      "desc": "In this episode, Lily and Max explore why bats hang upside down and discover that it’s a clever way to rest, stay out of reach of some predators, and get ready to fly. With a Halloween twist, they uncover how bats grip a branch while they sleep, perform an upside-down landing, and find food in the dark. It’s a fun, not-so-spooky look at the science behind one of Halloween’s most famous animals!",
+      "len": "12 min",
+      "date": "6 Oct 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f517e35aaa34e44c1dae6faca",
+      "url": "https://open.spotify.com/episode/0ahgL1EegNbP3dseEfgap0",
+      "spotify_uri": "spotify:episode:0ahgL1EegNbP3dseEfgap0"
+    },
     {
       "id": "5xqsoLSrIM6gKHJ5btbuht",
       "n": "Episode 41",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f0588814b7cba16e2543b0c81",
       "url": "https://open.spotify.com/episode/00cxCuj7O2IFQZHRXBuUzC",
       "spotify_uri": "spotify:episode:00cxCuj7O2IFQZHRXBuUzC"
-    },
-    {
-      "id": "6YccUZcEQwHeldzvhtls92",
-      "n": "Episode 37",
-      "title": "Ep37. How are electric car engines different from petrol car engines?",
-      "desc": "In this episode, Lily and Max look under the bonnet to discover how electric cars are different from petrol cars. They explore how petrol engines use tiny controlled bursts, why diesel engines don’t need spark plugs, and how electric motors use batteries and magnetic forces to turn the wheels. They also uncover how hybrid cars combine fuel and electricity, how regenerative braking puts energy back into a battery, and the advantages and disadvantages of each type of car.",
-      "len": "11 min",
-      "date": "18 Sept 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f9902156d5a7194d5ab767c94",
-      "url": "https://open.spotify.com/episode/6YccUZcEQwHeldzvhtls92",
-      "spotify_uri": "spotify:episode:6YccUZcEQwHeldzvhtls92"
     }
   ]
 }
