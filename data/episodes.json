@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-10-08T13:39:45.049Z",
+  "generated_at": "2026-10-08T23:26:51.333Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "6dM5h5ZOzlPTRdhej2WjAw",
+      "n": "Episode 43",
+      "title": "Ep43. Whoosh! What makes wind?",
+      "desc": "In this episode, Lily and Max follow the clues to discover what makes wind. They explore how differences in air pressure get air moving, why wind can change speed and direction, and how thunderstorms can bring sudden gusts. Plus, Max learns what a “southerly” really means and finds out that even a paper windmill can help us spot the wind!",
+      "len": "11 min",
+      "date": "9 Oct 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1ffdaa8db62a8a3d34bb07b959",
+      "url": "https://open.spotify.com/episode/6dM5h5ZOzlPTRdhej2WjAw",
+      "spotify_uri": "spotify:episode:6dM5h5ZOzlPTRdhej2WjAw"
+    },
     {
       "id": "0ahgL1EegNbP3dseEfgap0",
       "n": "Episode 42",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fc4eb2d02383b9ac16a7f6804",
       "url": "https://open.spotify.com/episode/5f2WzA8FpAFM083XnhwW0y",
       "spotify_uri": "spotify:episode:5f2WzA8FpAFM083XnhwW0y"
-    },
-    {
-      "id": "00cxCuj7O2IFQZHRXBuUzC",
-      "n": "Episode 38",
-      "title": "Ep38. Why do magnets attract metal?",
-      "desc": "In this episode, Lily and Max discover why magnets attract some metals but leave others alone. They go on a magnet hunt, move a paper clip through cardboard, and build a dangling paper clip chain. Along the way, they explore invisible magnetic fields, find out why distance matters, and learn how a material can become a magnet.",
-      "len": "11 min",
-      "date": "22 Sept 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f0588814b7cba16e2543b0c81",
-      "url": "https://open.spotify.com/episode/00cxCuj7O2IFQZHRXBuUzC",
-      "spotify_uri": "spotify:episode:00cxCuj7O2IFQZHRXBuUzC"
     }
   ]
 }
