@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-10-12T15:37:38.453Z",
+  "generated_at": "2026-10-13T00:47:02.831Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "0JhTB8pE4daBTQzoRJ2Jkq",
+      "n": "Episode 44",
+      "title": "Ep44. How many bananas would make a monkey sick?",
+      "desc": "In this playful episode of Little Ears, Big Ideas, Max and Lily explore whether monkeys can eat too many bananas. Kids learn that even healthy foods can be a problem in huge amounts, and that wild monkeys actually eat lots of different foods, not just bananas. A fun, silly question turns into a gentle lesson about balance, bodies, and what animals really eat.",
+      "len": "11 min",
+      "date": "13 Oct 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1fefe22878483c0e701da0d551",
+      "url": "https://open.spotify.com/episode/0JhTB8pE4daBTQzoRJ2Jkq",
+      "spotify_uri": "spotify:episode:0JhTB8pE4daBTQzoRJ2Jkq"
+    },
     {
       "id": "6dM5h5ZOzlPTRdhej2WjAw",
       "n": "Episode 43",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f271eed7adc93c4584974d8c0",
       "url": "https://open.spotify.com/episode/3tQWSfF64LTA88oAsT2auZ",
       "spotify_uri": "spotify:episode:3tQWSfF64LTA88oAsT2auZ"
-    },
-    {
-      "id": "5f2WzA8FpAFM083XnhwW0y",
-      "n": "Episode 39",
-      "title": "Ep39. How does sleep restore our energy?",
-      "desc": "In this episode, Lily and Max follow energy through a busy day and a good night’s sleep. Where does the energy from our food go when we run and play? And if sleeping uses energy too, why do we wake up feeling refreshed? Discover how our bodies turn food into movement and warmth, and how sleep helps our brains and bodies recover for tomorrow.",
-      "len": "11 min",
-      "date": "25 Sept 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1fc4eb2d02383b9ac16a7f6804",
-      "url": "https://open.spotify.com/episode/5f2WzA8FpAFM083XnhwW0y",
-      "spotify_uri": "spotify:episode:5f2WzA8FpAFM083XnhwW0y"
     }
   ]
 }
