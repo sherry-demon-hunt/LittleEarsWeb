@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-10-15T17:06:29.297Z",
+  "generated_at": "2026-10-15T21:28:53.248Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "4YR5EUmyIvCt3m5OwL3j0g",
+      "n": "Episode 45",
+      "title": "Ep45. Why do we get goosebumps?",
+      "desc": "In this episode, Lily and Max explore why we get goosebumps when we’re cold, frightened, excited, or moved by music. They discover how tiny muscles pull hairs upright, why this reaction may have helped our furry ancestors, and where the name “goosebumps” comes from.",
+      "len": "10 min",
+      "date": "16 Oct 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f21cc315d6347f4df22de8bc3",
+      "url": "https://open.spotify.com/episode/4YR5EUmyIvCt3m5OwL3j0g",
+      "spotify_uri": "spotify:episode:4YR5EUmyIvCt3m5OwL3j0g"
+    },
     {
       "id": "0JhTB8pE4daBTQzoRJ2Jkq",
       "n": "Episode 44",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fd6a900ede419210d84206a2d",
       "url": "https://open.spotify.com/episode/5xqsoLSrIM6gKHJ5btbuht",
       "spotify_uri": "spotify:episode:5xqsoLSrIM6gKHJ5btbuht"
-    },
-    {
-      "id": "3tQWSfF64LTA88oAsT2auZ",
-      "n": "Episode 40",
-      "title": "Ep40. How does concrete stick bricks together?",
-      "desc": "In this episode, Lily and Max investigate the grey stuff that holds a brick wall together. Is it really concrete? And how can something soft and squishy turn into a strong bond?Join them for a playful trip inside a brick’s tiny pores to discover what mortar is made of, what happens when cement meets water, and why the way bricks are stacked matters too. You’ll never look at a brick wall quite the same way again!",
-      "len": "9 min",
-      "date": "29 Sept 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f271eed7adc93c4584974d8c0",
-      "url": "https://open.spotify.com/episode/3tQWSfF64LTA88oAsT2auZ",
-      "spotify_uri": "spotify:episode:3tQWSfF64LTA88oAsT2auZ"
     }
   ]
 }
