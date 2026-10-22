@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-10-22T17:16:00.161Z",
+  "generated_at": "2026-10-22T21:41:49.237Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "2eKPzcGDm20zcDZh30Xum3",
+      "n": "Episode 46",
+      "title": "Ep46. Why are there so many different animal species?",
+      "desc": "In this episode, Lily and Max explore why there are so many different animal species. They follow the branches of the animal family tree and discover how inherited differences, changing habitats and groups becoming separated can lead to new species over many generations. Along the way, they learn that animals don’t choose to evolve and that Earth’s animal story is still unfolding.",
+      "len": "10 min",
+      "date": "23 Oct 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1fc36a688dc0a9890314f5dd2e",
+      "url": "https://open.spotify.com/episode/2eKPzcGDm20zcDZh30Xum3",
+      "spotify_uri": "spotify:episode:2eKPzcGDm20zcDZh30Xum3"
+    },
     {
       "id": "4YR5EUmyIvCt3m5OwL3j0g",
       "n": "Episode 45",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1f517e35aaa34e44c1dae6faca",
       "url": "https://open.spotify.com/episode/0ahgL1EegNbP3dseEfgap0",
       "spotify_uri": "spotify:episode:0ahgL1EegNbP3dseEfgap0"
-    },
-    {
-      "id": "5xqsoLSrIM6gKHJ5btbuht",
-      "n": "Episode 41",
-      "title": "Ep41. Why do we trick-or-treat at Halloween?",
-      "desc": "In this episode, Lily and Max take a playful trip through time to discover why we trick-or-treat at Halloween and why our buckets fill with sweets! 🎃🍬 From harvest celebrations and little soul cakes to costumes, doorstep jokes and lanterns carved from turnips, they explore how centuries of traditions helped shape Halloween today.",
-      "len": "13 min",
-      "date": "2 Oct 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1fd6a900ede419210d84206a2d",
-      "url": "https://open.spotify.com/episode/5xqsoLSrIM6gKHJ5btbuht",
-      "spotify_uri": "spotify:episode:5xqsoLSrIM6gKHJ5btbuht"
     }
   ]
 }
