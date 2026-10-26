@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-10-26T13:13:13.295Z",
+  "generated_at": "2026-10-26T22:43:32.884Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "6223Gvf58X1gWsz1bsNirg",
+      "n": "Episode 47",
+      "title": "Ep47. How do glasses help us see better?",
+      "desc": "In this episode, Lily and Max discover how glasses bend light to help it focus clearly inside the eye and why that can make the world look sharper. They also talk about simple habits that support healthy eyes, while learning that needing glasses isn’t something to worry about. Tune in for a bright, clear look at how our eyes and glasses work together!",
+      "len": "10 min",
+      "date": "27 Oct 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1fe02c5fbdc22670be6883506b",
+      "url": "https://open.spotify.com/episode/6223Gvf58X1gWsz1bsNirg",
+      "spotify_uri": "spotify:episode:6223Gvf58X1gWsz1bsNirg"
+    },
     {
       "id": "2eKPzcGDm20zcDZh30Xum3",
       "n": "Episode 46",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1ffdaa8db62a8a3d34bb07b959",
       "url": "https://open.spotify.com/episode/6dM5h5ZOzlPTRdhej2WjAw",
       "spotify_uri": "spotify:episode:6dM5h5ZOzlPTRdhej2WjAw"
-    },
-    {
-      "id": "0ahgL1EegNbP3dseEfgap0",
-      "n": "Episode 42",
-      "title": "Ep42. Why do bats hang upside down?",
-      "desc": "In this episode, Lily and Max explore why bats hang upside down and discover that it’s a clever way to rest, stay out of reach of some predators, and get ready to fly. With a Halloween twist, they uncover how bats grip a branch while they sleep, perform an upside-down landing, and find food in the dark. It’s a fun, not-so-spooky look at the science behind one of Halloween’s most famous animals!",
-      "len": "12 min",
-      "date": "6 Oct 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f517e35aaa34e44c1dae6faca",
-      "url": "https://open.spotify.com/episode/0ahgL1EegNbP3dseEfgap0",
-      "spotify_uri": "spotify:episode:0ahgL1EegNbP3dseEfgap0"
     }
   ]
 }
