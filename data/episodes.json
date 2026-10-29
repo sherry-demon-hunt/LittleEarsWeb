@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-10-29T13:11:56.588Z",
+  "generated_at": "2026-10-29T22:49:12.442Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "2rpgPuNd3DYrMRZbRAaRAf",
+      "n": "Episode 48",
+      "title": "Ep48. Why are trees important to our survival?",
+      "desc": "Why are trees so important to our survival? Lily and Max explore the many jobs trees do: helping produce oxygen, storing carbon, providing food and shade, supporting the water cycle, protecting soil and creating homes for wildlife. Discover how trees connect to the air, water and living things we all depend on, and why caring for forests and woodlands matters.",
+      "len": "9 min",
+      "date": "30 Oct 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1fd920d39efb862e6d886e942b",
+      "url": "https://open.spotify.com/episode/2rpgPuNd3DYrMRZbRAaRAf",
+      "spotify_uri": "spotify:episode:2rpgPuNd3DYrMRZbRAaRAf"
+    },
     {
       "id": "6223Gvf58X1gWsz1bsNirg",
       "n": "Episode 47",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fefe22878483c0e701da0d551",
       "url": "https://open.spotify.com/episode/0JhTB8pE4daBTQzoRJ2Jkq",
       "spotify_uri": "spotify:episode:0JhTB8pE4daBTQzoRJ2Jkq"
-    },
-    {
-      "id": "6dM5h5ZOzlPTRdhej2WjAw",
-      "n": "Episode 43",
-      "title": "Ep43. Whoosh! What makes wind?",
-      "desc": "In this episode, Lily and Max follow the clues to discover what makes wind. They explore how differences in air pressure get air moving, why wind can change speed and direction, and how thunderstorms can bring sudden gusts. Plus, Max learns what a “southerly” really means and finds out that even a paper windmill can help us spot the wind!",
-      "len": "11 min",
-      "date": "9 Oct 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1ffdaa8db62a8a3d34bb07b959",
-      "url": "https://open.spotify.com/episode/6dM5h5ZOzlPTRdhej2WjAw",
-      "spotify_uri": "spotify:episode:6dM5h5ZOzlPTRdhej2WjAw"
     }
   ]
 }
