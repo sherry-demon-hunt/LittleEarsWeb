@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-11-05T06:56:23.557Z",
+  "generated_at": "2026-11-05T20:01:37.970Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "0bzwiDlRO1crJd3exQ27AM",
+      "n": "Episode 50",
+      "title": "Ep50. How did wolves turn into dogs?",
+      "desc": "How did wolves become dogs? Lily and Max follow the clues back to the Ice Age, exploring how some wolves may have begun living near people and how natural selection gradually shaped their relationship. With ancient DNA, campfire scraps and a few very alert dogs, discover the long story behind one of our oldest animal friendships.",
+      "len": "12 min",
+      "date": "6 Nov 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1fb7f2ac1af7e6278c7b8f5229",
+      "url": "https://open.spotify.com/episode/0bzwiDlRO1crJd3exQ27AM",
+      "spotify_uri": "spotify:episode:0bzwiDlRO1crJd3exQ27AM"
+    },
     {
       "id": "5UwFG90hWtFm1CkETRBBOm",
       "n": "Episode 49",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fc36a688dc0a9890314f5dd2e",
       "url": "https://open.spotify.com/episode/2eKPzcGDm20zcDZh30Xum3",
       "spotify_uri": "spotify:episode:2eKPzcGDm20zcDZh30Xum3"
-    },
-    {
-      "id": "4YR5EUmyIvCt3m5OwL3j0g",
-      "n": "Episode 45",
-      "title": "Ep45. Why do we get goosebumps?",
-      "desc": "In this episode, Lily and Max explore why we get goosebumps when we’re cold, frightened, excited, or moved by music. They discover how tiny muscles pull hairs upright, why this reaction may have helped our furry ancestors, and where the name “goosebumps” comes from.",
-      "len": "10 min",
-      "date": "16 Oct 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f21cc315d6347f4df22de8bc3",
-      "url": "https://open.spotify.com/episode/4YR5EUmyIvCt3m5OwL3j0g",
-      "spotify_uri": "spotify:episode:4YR5EUmyIvCt3m5OwL3j0g"
     }
   ]
 }
