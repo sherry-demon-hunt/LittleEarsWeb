@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-11-09T06:45:46.665Z",
+  "generated_at": "2026-11-09T22:27:37.987Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "25fui8w2mMPcRcQxr8Lvl3",
+      "n": "Episode 51",
+      "title": "Ep51. How long is the Great Wall of China?",
+      "desc": "How long is the Great Wall of China? Is it really one continuous wall? Join Lily and Max as they explore its winding paths, watchtowers and fascinating history. Discover how different sections were built over many centuries, how guards sent messages across the landscape, and why the famous “visible from the Moon” claim isn’t true. A big question leads to an even bigger adventure!",
+      "len": "11 min",
+      "date": "10 Nov 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f759314a312cded25d8cd2a95",
+      "url": "https://open.spotify.com/episode/25fui8w2mMPcRcQxr8Lvl3",
+      "spotify_uri": "spotify:episode:25fui8w2mMPcRcQxr8Lvl3"
+    },
     {
       "id": "0bzwiDlRO1crJd3exQ27AM",
       "n": "Episode 50",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fe02c5fbdc22670be6883506b",
       "url": "https://open.spotify.com/episode/6223Gvf58X1gWsz1bsNirg",
       "spotify_uri": "spotify:episode:6223Gvf58X1gWsz1bsNirg"
-    },
-    {
-      "id": "2eKPzcGDm20zcDZh30Xum3",
-      "n": "Episode 46",
-      "title": "Ep46. Why are there so many different animal species?",
-      "desc": "In this episode, Lily and Max explore why there are so many different animal species. They follow the branches of the animal family tree and discover how inherited differences, changing habitats and groups becoming separated can lead to new species over many generations. Along the way, they learn that animals don’t choose to evolve and that Earth’s animal story is still unfolding.",
-      "len": "10 min",
-      "date": "23 Oct 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1fc36a688dc0a9890314f5dd2e",
-      "url": "https://open.spotify.com/episode/2eKPzcGDm20zcDZh30Xum3",
-      "spotify_uri": "spotify:episode:2eKPzcGDm20zcDZh30Xum3"
     }
   ]
 }
