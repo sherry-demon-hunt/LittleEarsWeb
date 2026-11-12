@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-11-12T07:19:28.690Z",
+  "generated_at": "2026-11-12T20:01:14.942Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "5GVdnopEdZwT0DLFg0Q5KK",
+      "n": "Episode 52",
+      "title": "Ep52. How deep can plant roots grow?",
+      "desc": "What’s happening beneath our feet? Lily and Max dig into how roots find water, why some stay near the surface while others grow astonishingly deep, and how roots help plants survive. Then they explore why a picked flower may keep opening for a little while, but can’t keep growing like a plant still connected to its roots. Join them for an underground adventure with a sleepy mole and a very ticklish nose!",
+      "len": "11 min",
+      "date": "13 Nov 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1fa2e5f625e9723fd811d5119c",
+      "url": "https://open.spotify.com/episode/5GVdnopEdZwT0DLFg0Q5KK",
+      "spotify_uri": "spotify:episode:5GVdnopEdZwT0DLFg0Q5KK"
+    },
     {
       "id": "25fui8w2mMPcRcQxr8Lvl3",
       "n": "Episode 51",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fd920d39efb862e6d886e942b",
       "url": "https://open.spotify.com/episode/2rpgPuNd3DYrMRZbRAaRAf",
       "spotify_uri": "spotify:episode:2rpgPuNd3DYrMRZbRAaRAf"
-    },
-    {
-      "id": "6223Gvf58X1gWsz1bsNirg",
-      "n": "Episode 47",
-      "title": "Ep47. How do glasses help us see better?",
-      "desc": "In this episode, Lily and Max discover how glasses bend light to help it focus clearly inside the eye and why that can make the world look sharper. They also talk about simple habits that support healthy eyes, while learning that needing glasses isn’t something to worry about. Tune in for a bright, clear look at how our eyes and glasses work together!",
-      "len": "10 min",
-      "date": "27 Oct 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1fe02c5fbdc22670be6883506b",
-      "url": "https://open.spotify.com/episode/6223Gvf58X1gWsz1bsNirg",
-      "spotify_uri": "spotify:episode:6223Gvf58X1gWsz1bsNirg"
     }
   ]
 }
