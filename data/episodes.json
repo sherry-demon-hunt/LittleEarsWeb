@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-11-19T07:33:21.932Z",
+  "generated_at": "2026-11-19T20:44:05.111Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "1E7i6DXag5fMfJkKlj0mI1",
+      "n": "Episode 54",
+      "title": "Ep54. Why do we have to brush teeth for 2 minutes?",
+      "desc": "What happens when Max gives just one tooth the full two-minute treatment? Join Lily and Max on a bubbly brushing adventure to uncover why every tooth needs a turn and how fluoride helps protect your smile. Get ready to make every second, and every tooth count!",
+      "len": "8 min",
+      "date": "20 Nov 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f1263bc3cccff1c6f7e0d2f8a",
+      "url": "https://open.spotify.com/episode/1E7i6DXag5fMfJkKlj0mI1",
+      "spotify_uri": "spotify:episode:1E7i6DXag5fMfJkKlj0mI1"
+    },
     {
       "id": "7HN194J1ddf41fCQxNKmol",
       "n": "Episode 53",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fb7f2ac1af7e6278c7b8f5229",
       "url": "https://open.spotify.com/episode/0bzwiDlRO1crJd3exQ27AM",
       "spotify_uri": "spotify:episode:0bzwiDlRO1crJd3exQ27AM"
-    },
-    {
-      "id": "5UwFG90hWtFm1CkETRBBOm",
-      "n": "Episode 49",
-      "title": "Ep49. Where does poo go when it’s flushed down the toilet?",
-      "desc": "After discovering how toilets flush, Lily and Max follow the journey beyond the pipes. They explore how treatment plants remove rubbish, separate solids, and use helpful microorganisms to clean wastewater. Where does the treated water go and what happens to the solids? Find out in this curious, kid-friendly look at the hidden journey behind every flush.",
-      "len": "9 min",
-      "date": "3 Nov 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f4183b6ed27e23d5f1e99f3bc",
-      "url": "https://open.spotify.com/episode/5UwFG90hWtFm1CkETRBBOm",
-      "spotify_uri": "spotify:episode:5UwFG90hWtFm1CkETRBBOm"
     }
   ]
 }
