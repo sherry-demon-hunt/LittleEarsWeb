@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-11-26T08:29:59.165Z",
+  "generated_at": "2026-11-26T21:40:06.969Z",
   "source": "https://open.spotify.com/show/033nX1b2ppBSHqZsId9qQK",
   "market": "AU",
   "public_only": true,
   "items": [
+    {
+      "id": "3zbhj5QxTZHj8P8ODHcvcY",
+      "n": "Episode 56",
+      "title": "Ep56. Why do some bugs like lights, and some don’t?",
+      "desc": "Why do moths flutter around lamps while other bugs scurry away? Lily and Max explore how insects see light, why a bright lamp can confuse some flying bugs, and why every tiny creature reacts in its own way. Join them for a glowing, bug-sized mystery!",
+      "len": "10 min",
+      "date": "27 Nov 2026",
+      "art": "https://i.scdn.co/image/ab67656300005f1f20c0ee57a6eb2249b182f62c",
+      "url": "https://open.spotify.com/episode/3zbhj5QxTZHj8P8ODHcvcY",
+      "spotify_uri": "spotify:episode:3zbhj5QxTZHj8P8ODHcvcY"
+    },
     {
       "id": "4LaOBe6qtpL76sUXMNMpQP",
       "n": "Episode 55",
@@ -47,17 +58,6 @@
       "art": "https://i.scdn.co/image/ab67656300005f1fa2e5f625e9723fd811d5119c",
       "url": "https://open.spotify.com/episode/5GVdnopEdZwT0DLFg0Q5KK",
       "spotify_uri": "spotify:episode:5GVdnopEdZwT0DLFg0Q5KK"
-    },
-    {
-      "id": "25fui8w2mMPcRcQxr8Lvl3",
-      "n": "Episode 51",
-      "title": "Ep51. How long is the Great Wall of China?",
-      "desc": "How long is the Great Wall of China? Is it really one continuous wall? Join Lily and Max as they explore its winding paths, watchtowers and fascinating history. Discover how different sections were built over many centuries, how guards sent messages across the landscape, and why the famous “visible from the Moon” claim isn’t true. A big question leads to an even bigger adventure!",
-      "len": "11 min",
-      "date": "10 Nov 2026",
-      "art": "https://i.scdn.co/image/ab67656300005f1f759314a312cded25d8cd2a95",
-      "url": "https://open.spotify.com/episode/25fui8w2mMPcRcQxr8Lvl3",
-      "spotify_uri": "spotify:episode:25fui8w2mMPcRcQxr8Lvl3"
     }
   ]
 }
